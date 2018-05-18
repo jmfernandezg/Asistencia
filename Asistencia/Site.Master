@@ -1,0 +1,274 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Asistencia.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <title><%: Page.Title %> - Sistema de Control de Asistencia (CASI)</title>
+
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <!-- BootStrap! -->
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome! -->
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <!-- Ionic! -->
+    <link href="~/Content/ionicons.min.css" rel="stylesheet" />
+    <!-- Dashboard! -->
+    <link href="~/Diseno/AdminLTE/css/AdminLTE.min.css" rel="stylesheet" />
+    <!-- Skin! -->
+    <link href="~/Diseno/AdminLTE/css/skins/_all-skins.min.css" rel="stylesheet" />
+    <!-- Data! -->
+    <link href="~/Diseno/AdminLTE/plugins/datatables/dataTables.bootstrap.css" rel="stylesheet" />
+    <!-- Select! -->
+    <link href="~/Diseno/AdminLTE/plugins/select2/select2.min.css" rel="stylesheet" />
+    <!-- Date Picker -->
+    <link href="~/Diseno/AdminLTE/plugins/timepicker/bootstrap-timepicker.min.css" rel="stylesheet" type="text/css" />
+    <!-- Comun -->
+    <link href="~/Diseno/css/comun.css" rel="stylesheet" />
+    <!-- Toast! -->
+    <link href="~/Content/toastr.min.css" rel="stylesheet" />
+
+
+
+</head>
+<body class="skin-blue sidebar-mini">
+    <script type="text/javascript">
+        function pageLoad() {
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(onEndRequest);
+        }
+
+        function onEndRequest(sender, args) {
+            var error = args.get_error();
+            if (error != undefined) {
+                toastr.error(error.message);
+                args.set_errorHandled(true);
+            }
+        }
+
+    </script>
+
+    <!-- Site wrapper -->
+    <div class="wrapper">
+
+        <form runat="server">
+            <header class="main-header">
+
+                <asp:HyperLink runat="server" ID="linkLogo" CssClass="logo" Text="Inicio" NavigateUrl="~/Sistema.aspx">
+                <span class="logo-mini"><b>C</b>ASI</span>
+                <span class="logo-lg"><b>Control</b>Asistencia</span>
+                </asp:HyperLink>
+
+
+
+
+                <nav class="navbar navbar-static-top" role="navigation">
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only">Navegacion</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+
+                            <li class="dropdown user user-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <asp:Image AlternateText="User Image" ImageUrl="~/Diseno/Imagen/company.png" CssClass="user-image" runat="server" />
+                                    <span class="hidden-xs"><%= UsuarioActual.Nombre %> <i class="fa fa-user"></i></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="user-header">
+                                        <asp:Image AlternateText="User Image" ImageUrl="~/Diseno/Imagen/company.png" CssClass="img-circle" runat="server" />
+                                        <p>
+                                            <%=UsuarioActual.Username %>
+                                        </p>
+                                    </li>
+                                    <li class="user-footer">
+                                        <div class="pull-left">
+                                            <asp:LinkButton runat="server" ID="BntMiPerfil" CssClass="btn btn-default btn-flat" Text="Mi Perfil" OnClick="BntMiPerfil_Click" />
+                                        </div>
+                                        <div class="pull-right">
+                                            <asp:LinkButton runat="server" ID="BtnCerrarSession" CssClass="btn btn-default btn-flat" Text="Cerrar Sesión" OnClick="BtnCerrarSession_Click" />
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <aside class="main-sidebar">
+                <section class="sidebar">
+                    <ul class="sidebar-menu">
+                        <li class="header">NAVEGACION</li>
+                        <li class="treeview">
+                            <asp:HyperLink runat="server" ID="linkInicio" Text="Inicio" NavigateUrl="~/Sistema.aspx"><i class="fa fa-dashboard"></i><span>Inicio</span></asp:HyperLink>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-folder"></i>
+                                <span>Catálogos</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkCatalogoPerfil" Text="Inicio" NavigateUrl="~/Catalogo/Perfil.aspx"><i class="fa fa-sitemap"></i>Perfiles</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkCatalogoUsuario" Text="Inicio" NavigateUrl="~/Catalogo/Usuario.aspx"><i class="fa fa-users"></i>Usuarios</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkCatalogoPlanta" Text="Inicio" NavigateUrl="~/Catalogo/Oficina.aspx"><i class="fa fa-tree"></i>Plantas</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkCatalogoEmpleado" Text="Inicio" NavigateUrl="~/Catalogo/Empleado.aspx"><i class="fa fa-car"></i>Empleados</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkCatalogoControlACceso" Text="Inicio" NavigateUrl="~/Catalogo/ControlAcceso.aspx"><i class="fa fa-laptop"></i>Controles de Acceso</asp:HyperLink></li>
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-cogs"></i>
+                                <span>Procesos</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkProcCargaMasivaEmpleado" Text="Inicio" NavigateUrl="~/Proceso/CargaMasivaEmpleado.aspx"><i class="fa fa-database"></i>Carga Masiva Empleados</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkProcCargaMasivaOficina" Text="Inicio" NavigateUrl="~/Proceso/CargaMasivaOficina.aspx"><i class="fa fa-table"></i>Carga Masiva Plantas</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkProcPlantilla" Text="Inicio" NavigateUrl="~/Proceso/Plantilla.aspx"><i class="fa fa-list"></i>Plantilla</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkProcEmpleadoEnControl" Text="Inicio" NavigateUrl="~/Proceso/EmpleadoEnControl.aspx"><i class="fa fa-chain"></i>Empleados En Controles</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkProcCargaPlantillaEnControl" Text="Inicio" NavigateUrl="~/Proceso/CargaPlantillaEnControl.aspx"><i class="fa fa-desktop"></i>Carga Plantilla En Controles</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkProcCargaAsistencia" Text="Inicio" NavigateUrl="~/Proceso/CargaAsistencia.aspx"><i class="fa fa-play"></i>Carga Asistencia</asp:HyperLink></li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkProcActualizarFecha" Text="Inicio" NavigateUrl="~/Proceso/ActualizaFechaEnControl.aspx"><i class="fa fa-clock-o"></i>Actualizar Fecha En Control</asp:HyperLink></li>
+                            </ul>
+                        </li>
+                        <li class="treeview">
+                            <a href="#">
+                                <i class="fa fa-area-chart"></i>
+                                <span>Reportes</span>
+                                <i class="fa fa-angle-left pull-right"></i>
+                            </a>
+                            <ul class="treeview-menu">
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkReporteAsistencia" Text="Asistencia" NavigateUrl="~/Reporte/ReporteAsistencia.aspx"><i class="fa fa-calendar" ></i>Asistencia</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkReporteEmpleadoNoRegistrado" Text="Empleado No Registrado" NavigateUrl="~/Reporte/ReporteEmpleadoNoRegistrado.aspx"><i class="fa fa-user-secret" ></i>Empleado No Registrado</asp:HyperLink>
+                                </li>
+                                <li>
+                                    <asp:HyperLink runat="server" ID="linkReporteTareas" Text="Tareas Programadas" ><i class="fa fa-bell"></i>Tareas Programadas</asp:HyperLink>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                <!-- /.sidebar -->
+            </aside>
+
+            <!-- =============================================== -->
+
+            <div class="content-wrapper">
+                <section class="content-header">
+                    <h1><%=Page.Title %>
+                        <small><%=Page.MetaDescription %></small>
+                    </h1>
+                    <ol class="breadcrumb">
+                        <li><i class="fa fa-dashboard"></i>
+                            <asp:HyperLink runat="server" NavigateUrl="~/Default.aspx" Text="Inicio" /></li>
+                        <asp:ContentPlaceHolder runat="server" ID="PlaceNivel1">
+                        </asp:ContentPlaceHolder>
+                        <li><a href="#"><%=Page.Title %></a></li>
+                    </ol>
+                </section>
+
+                <!-- /.content -->
+
+
+
+                <asp:ScriptManager runat="server">
+                    <Scripts>
+                        <asp:ScriptReference Path="~/Scripts/jquery-3.1.1.min.js" />
+                        <asp:ScriptReference Path="~/Scripts/jquery-ui-1.12.1.min.js" />
+                        <asp:ScriptReference Path="~/Scripts/bootstrap.min.js" />
+                        <asp:ScriptReference Path="~/Diseno/AdminLTE/plugins/datatables/jquery.dataTables.min.js" />
+                        <asp:ScriptReference Path="~/Diseno/AdminLTE/plugins/datatables/dataTables.bootstrap.min.js" />
+                        <asp:ScriptReference Path="~/Diseno/AdminLTE/plugins/datepicker/bootstrap-datepicker.js" />
+                        <asp:ScriptReference Path="~/Diseno/AdminLTE/plugins/timepicker/bootstrap-timepicker.min.js" />
+                        <asp:ScriptReference Path="~/Diseno/AdminLTE/plugins/select2/select2.full.min.js" />
+                        <asp:ScriptReference Path="~/Diseno/AdminLTE/plugins/slimScroll/jquery.slimscroll.min.js" />
+                        <asp:ScriptReference Path="~/Diseno/AdminLTE/plugins/fastclick/fastclick.min.js" />
+                        <asp:ScriptReference Path="~/Scripts/toastr.min.js" />
+                        <asp:ScriptReference Path="~/Diseno/AdminLTE/js/app.min.js" />
+                        <asp:ScriptReference Path="~/Diseno/Javascript/comun.js" />
+                        <asp:ScriptReference Path="~/Diseno/Javascript/spin.min.js" />
+                    </Scripts>
+                </asp:ScriptManager>
+
+                <!-- Main content -->
+                <section class="content">
+                    <asp:ContentPlaceHolder ID="Contenido" runat="server">
+                    </asp:ContentPlaceHolder>
+                </section>
+
+            </div>
+            <!-- /.content-wrapper -->
+
+            <footer class="main-footer">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 2.1.0
+                </div>
+                <strong>
+                    <p>&copy; <%: DateTime.Now.Year %> - Control de Asistencia (CASI) - Integración de Sistemas de Avanzada Tecnología</p>
+                </strong>
+            </footer>
+
+        </form>
+
+    </div>
+    <!-- ./wrapper -->
+
+    <script type="text/javascript">
+        $.widget.bridge('uibutton', $.ui.button);
+    </script>
+
+    <asp:Panel ID="PanelDataTable" runat="server" Visible="false">
+
+        <script>
+            $('#tablita').DataTable({
+                "language": {
+                    "emptyTable": "Sin datos",
+                    "info": "Mostrando _START_ a _END_ de _TOTAL_ registros",
+                    "infoEmpty": "Mostrando 0 a 0 de 0 registros",
+                    "infoFiltered": "(filtered from _MAX_ total entries)",
+                    "infoPostFix": "",
+                    "thousands": ",",
+                    "lengthMenu": "Mostrar _MENU_ registros",
+                    "loadingRecords": "Cargando...",
+                    "processing": "Procesando...",
+                    "search": "Buscar:",
+                    "zeroRecords": "Sin Coincidencias",
+                    "paginate": {
+                        "first": "Primero",
+                        "last": "Ultimo",
+                        "next": "Siguiente",
+                        "previous": "Previo "
+                    }
+                }
+            });
+
+
+        </script>
+
+    </asp:Panel>
+
+</body>
+</html>
+

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Asistencia" namespace="Asistencia.DbDominio" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Empleado" table="empleado" schema="dbo" dynamic-insert="true" dynamic-update="true" select-before-update="true">
+    <id name="CveEmpleado" type="Int32">
+      <column name="cve_empleado" not-null="true" precision="10" scale="0" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <property name="NoEmpleado" type="Int32">
+      <column name="no_empleado" not-null="true" precision="10" scale="0" sql-type="int" unique="true" />
+    </property>
+    <property name="Nombre" type="String">
+      <column name="nombre" not-null="true" length="100" sql-type="varchar" />
+    </property>
+    <property name="FechaBaja" type="DateTime">
+      <column name="fecha_baja" not-null="false" sql-type="date" />
+    </property>
+    <property name="FechaAlta" type="DateTime">
+      <column name="fecha_alta" not-null="true" sql-type="datetime" />
+    </property>
+    <property name="Tarjeta" type="String">
+      <column name="tarjeta" not-null="false" length="20" sql-type="varchar" />
+    </property>
+    <property name="UltimaColeccion" type="String">
+      <column name="ultima_coleccion" not-null="false" length="255" sql-type="varchar" />
+    </property>
+    <property name="Activo" type="Boolean">
+      <column name="activo"  default="1" not-null="false" sql-type="bit" />
+    </property>
+
+    <property name="Habilitado" type="Boolean">
+      <column name="habilitado" default="1" not-null="false" sql-type="bit" />
+    </property>
+    <property name="FechaCreacion" type="DateTime">
+      <column name="fecha_creacion" default="getdate()" not-null="false" sql-type="datetime" />
+    </property>
+    <property name="FechaModificacion" type="DateTime">
+      <column name="fecha_modificacion" default="getdate()" not-null="false" sql-type="datetime" />
+    </property>
+    <many-to-one name="Usuario_cve_usuario_alta" class="Usuario">
+      <column name="cve_usuario_alta" not-null="true" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Usuario_creado_por" class="Usuario">
+      <column name="creado_por" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Usuario_modificado_por" class="Usuario">
+      <column name="modificado_por" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Plaza" class="Plaza">
+      <column name="id_plaza" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+
+    <set name="EmpleadoControlAccesos" table="EmpleadoControlAcceso" fetch="select" lazy="true">
+      <key column="Cve_Empleado"></key>
+      <one-to-many class="EmpleadoControlAcceso"/>
+    </set>
+
+  </class>
+</hibernate-mapping>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Asistencia" namespace="Asistencia.DbDominio" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Perfil" table="perfil" schema="dbo" dynamic-insert="true" dynamic-update="true" select-before-update="true">
+    <id name="Id" type="Int32">
+      <column name="id" not-null="true" precision="10" scale="0" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <property name="Nombre" type="String">
+      <column name="nombre" not-null="false" length="255" sql-type="varchar" />
+    </property>
+    <property name="Descripcion" type="String">
+      <column name="descripcion" not-null="false" length="255" sql-type="varchar" />
+    </property>
+    <property name="FechaCreacion" type="DateTime">
+      <column name="fecha_creacion" not-null="false" sql-type="datetime" />
+    </property>
+    <property name="FechaModificacion" type="DateTime">
+      <column name="fecha_modificacion" not-null="false" sql-type="datetime" />
+    </property>
+    <property name="Status" type="Boolean">
+      <column name="status" default="1" not-null="false" sql-type="bit" />
+    </property>
+    <property name="Activo" type="Boolean">
+      <column name="activo"  default="1" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoCatalogoPerfil" type="Boolean">
+      <column name="Permiso_Catalogo_Perfil"  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoCatalogoUsuario" type="Boolean">
+      <column name="Permiso_Catalogo_Usuario"  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoCatalogoOficina" type="Boolean">
+      <column name="Permiso_Catalogo_Oficina"  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoCatalogoEmpleado" type="Boolean">
+      <column name="Permiso_Catalogo_Empleado"  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoCatalogoControlAcceso" type="Boolean">
+      <column name="Permiso_Catalogo_Control_Acceso"  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoProcesoCargaMasivaEmpleado" type="Boolean">
+      <column name="Permiso_Proceso_Carga_Masiva_Empleado"  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoProcesoCargaMasivaPlantilla" type="Boolean">
+      <column name="Permiso_Proceso_Carga_Masiva_Plantilla"  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoProcesoPlantilla" type="Boolean">
+      <column name="Permiso_Proceso_Plantilla"  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoProcesoEmpleadoEnControl" type="Boolean">
+      <column name="Permiso_Proceso_Empleado_En_Control "  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoProcesoCargaPlantillaEnControl" type="Boolean">
+      <column name="Permiso_Proceso_Carga_Plantilla_En_Control "  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoProcesoCargaAsistencia" type="Boolean">
+      <column name="Permiso_Proceso_Carga_Asistencia"  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoProcesoActualizarFechaEnControl" type="Boolean">
+      <column name="Permiso_Proceso_Actualizar_Fecha_En_Control"  default="0" not-null="false" sql-type="bit" />
+    </property>
+
+    <property name="PermisoReporteAsistencia" type="Boolean">
+      <column name="Permiso_Reporte_Asistencia"  default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="PermisoReporteEmpleadoNoRegistrado" type="Boolean">
+      <column name="Permiso_Reporte_Empleado_No_Registrado"  default="0" not-null="false" sql-type="bit" />
+    </property>
+
+    <property name="Habilitado" type="Boolean">
+      <column name="habilitado" default="1" not-null="false" sql-type="bit" />
+    </property>
+    <many-to-one name="Usuario_creado_por" class="Usuario">
+      <column name="creado_por" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Usuario_modificado_por" class="Usuario">
+      <column name="modificado_por" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+
+  </class>
+</hibernate-mapping>

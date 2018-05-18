@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Asistencia" namespace="Asistencia.DbDominio" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ControlAcceso" table="control_acceso" schema="dbo" dynamic-insert="true" dynamic-update="true" select-before-update="true">
+    <id name="CveControlAcceso" type="Int32">
+      <column name="cve_control_acceso" not-null="true" precision="10" scale="0" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <property name="IdControl" type="Int32">
+      <column name="id_control" not-null="true" precision="10" scale="0" sql-type="int" unique="true" />
+    </property>
+    <property name="Nombre" type="String">
+      <column name="nombre" not-null="true" length="50" sql-type="varchar" />
+    </property>
+    <property name="DireccionIp" type="String">
+      <column name="direccion_ip" not-null="false" length="25" sql-type="varchar" />
+    </property>
+    <property name="Puerto" type="Int16">
+      <column name="puerto" not-null="false" precision="5" scale="0" sql-type="smallint" />
+    </property>
+    <property name="FechaAlta" type="DateTime">
+      <column name="fecha_alta" not-null="true" sql-type="datetime" />
+    </property>
+    <property name="FechaUltimaConexion" type="DateTime">
+      <column name="fecha_ultima_conexion" not-null="false" sql-type="datetime" />
+    </property>
+    <property name="Marca" type="String">
+      <column name="marca" not-null="false" length="50" sql-type="varchar" />
+    </property>
+    <property name="Modelo" type="String">
+      <column name="modelo" not-null="false" length="50" sql-type="varchar" />
+    </property>
+    <property name="VersionFirmware" type="String">
+      <column name="version_firmware" not-null="false" length="25" sql-type="varchar" />
+    </property>
+    <property name="CapacidadHuellas" type="Int32">
+      <column name="capacidad_huellas" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="FechaAdquisicion" type="DateTime">
+      <column name="fecha_adquisicion" not-null="false" sql-type="smalldatetime" />
+    </property>
+    <property name="Activo" type="Boolean">
+      <column name="activo"  default="1" not-null="false" sql-type="bit" />
+    </property>
+    <property name="Habilitado" type="Boolean">
+      <column name="habilitado" default="1" not-null="false" sql-type="bit" />
+    </property>
+    <property name="FechaModificacion" type="DateTime">
+      <column name="fecha_modificacion" default="getdate()" not-null="false" sql-type="datetime" />
+    </property>
+
+    <many-to-one name="Oficina" class="Oficina">
+      <column name="cve_oficina" not-null="true" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Usuario_cve_usuario_alta" class="Usuario">
+      <column name="cve_usuario_alta" not-null="true" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Usuario_modificado_por" class="Usuario">
+      <column name="modificado_por" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <one-to-one name="EmpleadoControlAcceso" class="EmpleadoControlAcceso" />
+  </class>
+</hibernate-mapping>

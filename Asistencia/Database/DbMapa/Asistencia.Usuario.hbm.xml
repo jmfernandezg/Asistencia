@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Asistencia" namespace="Asistencia.DbDominio" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Usuario" table="usuario" schema="dbo" dynamic-insert="true" dynamic-update="true" select-before-update="true">
+    <id name="CveUsuario" type="Int32">
+      <column name="cve_usuario" not-null="true" precision="10" scale="0" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <property name="Loginsql" type="String">
+      <column name="loginsql" not-null="true" length="50" sql-type="varchar" unique="true" />
+    </property>
+    <property name="Nombre" type="String">
+      <column name="nombre" not-null="true" length="100" sql-type="varchar" />
+    </property>
+    <property name="Activo" type="Boolean">
+      <column name="activo" not-null="true" sql-type="bit" />
+    </property>
+    <property name="Username" type="String">
+      <column name="username" not-null="false" length="255" sql-type="varchar" />
+    </property>
+    <property name="Password" type="String">
+      <column name="password" not-null="false" length="255" sql-type="varchar" />
+    </property>
+    <property name="EsAdmin" type="Boolean">
+      <column name="es_admin" default="0" not-null="false" sql-type="bit" />
+    </property>
+    <property name="Habilitado" type="Boolean">
+      <column name="habilitado" default="1" not-null="false" sql-type="bit" />
+    </property>
+    <property name="FechaCreacion" type="DateTime">
+      <column name="fecha_creacion" default="getdate()" not-null="false" sql-type="datetime" />
+    </property>
+    <property name="FechaModificacion" type="DateTime">
+      <column name="fecha_modificacion" default="getdate()" not-null="false" sql-type="datetime" />
+    </property>
+    <property name="CorreoElectronico" type="String">
+      <column name="correo_electronico" not-null="false" length="255" sql-type="varchar" />
+    </property>
+    <property name="Tipo" type="Int16">
+      <column name="tipo" default="1" not-null="false" precision="5" scale="0" sql-type="smallint" />
+    </property>
+    <many-to-one name="Oficina_cve_oficina" class="Oficina">
+      <column name="cve_oficina" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Perfil_id_perfil" class="Perfil">
+      <column name="id_perfil" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Usuario_creado_por" class="Usuario">
+      <column name="creado_por" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Usuario_modificado_por" class="Usuario">
+      <column name="modificado_por" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+
+  </class>
+</hibernate-mapping>

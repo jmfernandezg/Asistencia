@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Asistencia" namespace="Asistencia.DbDominio" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Zona" table="zona" schema="dbo" dynamic-insert="true" dynamic-update="true" select-before-update="true">
+    <id name="Id" type="Int32">
+      <column name="id" not-null="true" precision="10" scale="0" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <property name="Nombre" type="String">
+      <column name="nombre" not-null="false" length="255" sql-type="varchar" />
+    </property>
+    <property name="Descripcion" type="String">
+      <column name="descripcion" not-null="false" length="255" sql-type="varchar" />
+    </property>
+    <property name="FechaCreacion" type="DateTime">
+      <column name="fecha_creacion" not-null="false" sql-type="datetime" />
+    </property>
+    <property name="FechaModificacion" type="DateTime">
+      <column name="fecha_modificacion" not-null="false" sql-type="datetime" />
+    </property>
+    <property name="Status" type="Boolean">
+      <column name="status" default="1" not-null="false" sql-type="bit" />
+    </property>
+    <property name="Activo" type="Boolean">
+      <column name="activo"  default="1" not-null="false" sql-type="bit" />
+    </property>
+    <property name="Habilitado" type="Boolean">
+      <column name="habilitado" default="1" not-null="false" sql-type="bit" />
+    </property>
+    <many-to-one name="Usuario_creado_por" class="Usuario">
+      <column name="creado_por" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Usuario_modificado_por" class="Usuario">
+      <column name="modificado_por" not-null="false" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+
+  </class>
+</hibernate-mapping>

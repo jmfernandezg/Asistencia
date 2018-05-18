@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Asistencia" namespace="Asistencia.DbDominio" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="UsuarioNotificacion" table="usuario_notificacion" schema="dbo" dynamic-insert="true" dynamic-update="true" select-before-update="true">
+    <id name="CveUsuarioNotificacion" type="Int32">
+      <column name="cve_usuario_notificacion" not-null="true" precision="10" scale="0" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <property name="NombreUsuario" type="String">
+      <column name="nombre_usuario" not-null="true" length="100" sql-type="varchar" />
+    </property>
+    <property name="Email" type="String">
+      <column name="email" not-null="true" length="50" sql-type="varchar" />
+    </property>
+    <property name="Activo" type="Boolean">
+      <column name="activo" not-null="true" sql-type="bit" />
+    </property>
+  </class>
+</hibernate-mapping>

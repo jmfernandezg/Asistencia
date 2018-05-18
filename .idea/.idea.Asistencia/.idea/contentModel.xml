@@ -1,0 +1,1606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\jmfx\.Rider2018.1\System\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_Asistencia.1755269900.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jmfx\Downloads\TMP\Asistencia" t="IncludeFlat">
+      <e p="Asistencia" t="IncludeRecursive">
+        <e p="App_Data" t="Include" />
+        <e p="App_Start" t="Include">
+          <e p="BundleConfig.cs" t="Include" />
+          <e p="RouteConfig.cs" t="Include" />
+        </e>
+        <e p="ApplicationInsights.config" t="Include" />
+        <e p="Asistencia.csproj" t="IncludeRecursive" />
+        <e p="Bin" t="ExcludeRecursive" />
+        <e p="Bundle.config" t="Include" />
+        <e p="Catalogo" t="Include">
+          <e p="ControlAcceso.aspx" t="Include" />
+          <e p="ControlAcceso.aspx.cs" t="Include" />
+          <e p="ControlAcceso.aspx.designer.cs" t="Include" />
+          <e p="ControlAccesoAbm.aspx" t="Include" />
+          <e p="ControlAccesoAbm.aspx.cs" t="Include" />
+          <e p="ControlAccesoAbm.aspx.designer.cs" t="Include" />
+          <e p="Empleado.aspx" t="Include" />
+          <e p="Empleado.aspx.cs" t="Include" />
+          <e p="Empleado.aspx.designer.cs" t="Include" />
+          <e p="EmpleadoAbm.aspx" t="Include" />
+          <e p="EmpleadoAbm.aspx.cs" t="Include" />
+          <e p="EmpleadoAbm.aspx.designer.cs" t="Include" />
+          <e p="MiPerfil.aspx" t="Include" />
+          <e p="MiPerfil.aspx.cs" t="Include" />
+          <e p="MiPerfil.aspx.designer.cs" t="Include" />
+          <e p="Oficina.aspx" t="Include" />
+          <e p="Oficina.aspx.cs" t="Include" />
+          <e p="Oficina.aspx.designer.cs" t="Include" />
+          <e p="OficinaAbm.aspx" t="Include" />
+          <e p="OficinaAbm.aspx.cs" t="Include" />
+          <e p="OficinaAbm.aspx.designer.cs" t="Include" />
+          <e p="Perfil.aspx" t="Include" />
+          <e p="Perfil.aspx.cs" t="Include" />
+          <e p="Perfil.aspx.designer.cs" t="Include" />
+          <e p="PerfilAbm.aspx" t="Include" />
+          <e p="PerfilAbm.aspx.cs" t="Include" />
+          <e p="PerfilAbm.aspx.designer.cs" t="Include" />
+          <e p="Usuario.aspx" t="Include" />
+          <e p="Usuario.aspx.cs" t="Include" />
+          <e p="Usuario.aspx.designer.cs" t="Include" />
+          <e p="UsuarioAbm.aspx" t="Include" />
+          <e p="UsuarioAbm.aspx.cs" t="Include" />
+          <e p="UsuarioAbm.aspx.designer.cs" t="Include" />
+        </e>
+        <e p="Clases" t="Include">
+          <e p="Constantes.cs" t="Include" />
+          <e p="GrupoPlantilla.cs" t="Include" />
+          <e p="PaginaExtensible.cs" t="Include" />
+        </e>
+        <e p="Connected Services\HuellaDactilar" t="Include">
+          <e p="configuration.svcinfo" t="Include" />
+          <e p="configuration91.svcinfo" t="Include" />
+          <e p="Reference.cs" t="Include" />
+          <e p="Reference.svcmap" t="Include" />
+          <e p="SI_OA_RegistroHuellaDactilar.wsdl" t="Include" />
+        </e>
+        <e p="Content" t="Include">
+          <e p="bootstrap-theme.css" t="Include" />
+          <e p="bootstrap-theme.css.map" t="Include" />
+          <e p="bootstrap-theme.min.css" t="Include" />
+          <e p="bootstrap-theme.min.css.map" t="Include" />
+          <e p="bootstrap.css" t="Include" />
+          <e p="bootstrap.css.map" t="Include" />
+          <e p="bootstrap.min.css" t="Include" />
+          <e p="bootstrap.min.css.map" t="Include" />
+          <e p="font-awesome.css" t="Include" />
+          <e p="font-awesome.min.css" t="Include" />
+          <e p="Site.css" t="Include" />
+          <e p="themes" t="Include">
+            <e p="base" t="Include">
+              <e p="accordion.css" t="Include" />
+              <e p="all.css" t="Include" />
+              <e p="autocomplete.css" t="Include" />
+              <e p="base.css" t="Include" />
+              <e p="button.css" t="Include" />
+              <e p="core.css" t="Include" />
+              <e p="datepicker.css" t="Include" />
+              <e p="dialog.css" t="Include" />
+              <e p="draggable.css" t="Include" />
+              <e p="images" t="Include">
+                <e p="ui-bg_flat_0_aaaaaa_40x100.png" t="Include" />
+                <e p="ui-bg_flat_75_ffffff_40x100.png" t="Include" />
+                <e p="ui-bg_glass_55_fbf9ee_1x400.png" t="Include" />
+                <e p="ui-bg_glass_65_ffffff_1x400.png" t="Include" />
+                <e p="ui-bg_glass_75_dadada_1x400.png" t="Include" />
+                <e p="ui-bg_glass_75_e6e6e6_1x400.png" t="Include" />
+                <e p="ui-bg_glass_95_fef1ec_1x400.png" t="Include" />
+                <e p="ui-bg_highlight-soft_75_cccccc_1x100.png" t="Include" />
+                <e p="ui-icons_222222_256x240.png" t="Include" />
+                <e p="ui-icons_2e83ff_256x240.png" t="Include" />
+                <e p="ui-icons_444444_256x240.png" t="Include" />
+                <e p="ui-icons_454545_256x240.png" t="Include" />
+                <e p="ui-icons_555555_256x240.png" t="Include" />
+                <e p="ui-icons_777620_256x240.png" t="Include" />
+                <e p="ui-icons_777777_256x240.png" t="Include" />
+                <e p="ui-icons_888888_256x240.png" t="Include" />
+                <e p="ui-icons_cc0000_256x240.png" t="Include" />
+                <e p="ui-icons_cd0a0a_256x240.png" t="Include" />
+                <e p="ui-icons_ffffff_256x240.png" t="Include" />
+              </e>
+              <e p="jquery-ui.css" t="Include" />
+              <e p="jquery-ui.min.css" t="Include" />
+              <e p="menu.css" t="Include" />
+              <e p="progressbar.css" t="Include" />
+              <e p="resizable.css" t="Include" />
+              <e p="selectable.css" t="Include" />
+              <e p="selectmenu.css" t="Include" />
+              <e p="slider.css" t="Include" />
+              <e p="sortable.css" t="Include" />
+              <e p="spinner.css" t="Include" />
+              <e p="tabs.css" t="Include" />
+              <e p="theme.css" t="Include" />
+              <e p="tooltip.css" t="Include" />
+            </e>
+          </e>
+          <e p="toastr.css" t="Include" />
+          <e p="toastr.less" t="Include" />
+          <e p="toastr.min.css" t="Include" />
+          <e p="toastr.scss" t="Include" />
+        </e>
+        <e p="Database" t="Include">
+          <e p="DbMapa" t="Include">
+            <e p="Asistencia.Catalogo.hbm.xml" t="Include" />
+            <e p="Asistencia.ColectorMovimiento.hbm.xml" t="Include" />
+            <e p="Asistencia.ColectorMovimientoIncidencia.hbm.xml" t="Include" />
+            <e p="Asistencia.ControlAcceso.hbm.xml" t="Include" />
+            <e p="Asistencia.DetalleCatalogo.hbm.xml" t="Include" />
+            <e p="Asistencia.Empleado.hbm.xml" t="Include" />
+            <e p="Asistencia.EmpleadoControlAcceso.hbm.xml" t="Include" />
+            <e p="Asistencia.Incidencia.hbm.xml" t="Include" />
+            <e p="Asistencia.Oficina.hbm.xml" t="Include" />
+            <e p="Asistencia.Perfil.hbm.xml" t="Include" />
+            <e p="Asistencia.Plantilla.hbm.xml" t="Include" />
+            <e p="Asistencia.Plaza.hbm.xml" t="Include" />
+            <e p="Asistencia.Region.hbm.xml" t="Include" />
+            <e p="Asistencia.Usuario.hbm.xml" t="Include" />
+            <e p="Asistencia.UsuarioNotificacion.hbm.xml" t="Include" />
+            <e p="Asistencia.Zona.hbm.xml" t="Include" />
+          </e>
+        </e>
+        <e p="DbConfig" t="Include">
+          <e p="NHibernateDesign.cs" t="Include" />
+          <e p="NHibernateSessionManager.cs" t="Include" />
+          <e p="NHibernateSessionModule.cs" t="Include" />
+        </e>
+        <e p="DbDao" t="Include">
+          <e p="AbstractNHibernateDao.cs" t="Include" />
+          <e p="ColectorMovimientoDao.cs" t="Include" />
+          <e p="ColectorMovimientoIncidenciaDao.cs" t="Include" />
+          <e p="ControlAccesoDao.cs" t="Include" />
+          <e p="DetalleCatalogoDao.cs" t="Include" />
+          <e p="EmpleadoControlAccesoDao.cs" t="Include" />
+          <e p="EmpleadoDao.cs" t="Include" />
+          <e p="IncidenciaDao.cs" t="Include" />
+          <e p="NHibernateDaoFactory.cs" t="Include" />
+          <e p="OficinaDao.cs" t="Include" />
+          <e p="PerfilDao.cs" t="Include" />
+          <e p="PlantillaDao.cs" t="Include" />
+          <e p="PlazaDao.cs" t="Include" />
+          <e p="RegionDao.cs" t="Include" />
+          <e p="UsuarioDao.cs" t="Include" />
+          <e p="ZonaDao.cs" t="Include" />
+        </e>
+        <e p="DbDominio" t="Include">
+          <e p="Asistencia.Catalogo.cs" t="Include" />
+          <e p="Asistencia.ColectorMovimiento.cs" t="Include" />
+          <e p="Asistencia.ColectorMovimientoIncidencia.cs" t="Include" />
+          <e p="Asistencia.ControlAcceso.cs" t="Include" />
+          <e p="Asistencia.DetalleCatalogo.cs" t="Include" />
+          <e p="Asistencia.Empleado.cs" t="Include" />
+          <e p="Asistencia.EmpleadoControlAcceso.cs" t="Include" />
+          <e p="Asistencia.Incidencia.cs" t="Include" />
+          <e p="Asistencia.Oficina.cs" t="Include" />
+          <e p="Asistencia.Perfil.cs" t="Include" />
+          <e p="Asistencia.Plantilla.cs" t="Include" />
+          <e p="Asistencia.Plaza.cs" t="Include" />
+          <e p="Asistencia.Region.cs" t="Include" />
+          <e p="Asistencia.Usuario.cs" t="Include" />
+          <e p="Asistencia.UsuarioNotificacion.cs" t="Include" />
+          <e p="Asistencia.Zona.cs" t="Include" />
+        </e>
+        <e p="DbInterfase" t="Include">
+          <e p="IColectorMovimientoDao.cs" t="Include" />
+          <e p="IColectorMovimientoIncidenciaDao.cs" t="Include" />
+          <e p="IControlAccesoDao.cs" t="Include" />
+          <e p="IDao.cs" t="Include" />
+          <e p="IDaoFactory.cs" t="Include" />
+          <e p="IDetalleCatalogoDao.cs" t="Include" />
+          <e p="IEmpleadoControlAccesoDao.cs" t="Include" />
+          <e p="IEmpleadoDao.cs" t="Include" />
+          <e p="IIncidenciaDao.cs" t="Include" />
+          <e p="IOficinaDao.cs" t="Include" />
+          <e p="IPerfilDao.cs" t="Include" />
+          <e p="IPlantillaDao.cs" t="Include" />
+          <e p="IPlazaDao.cs" t="Include" />
+          <e p="IRegionDao.cs" t="Include" />
+          <e p="IUsuarioDao.cs" t="Include" />
+          <e p="IZonaDao.cs" t="Include" />
+        </e>
+        <e p="DbMapa" t="Include" />
+        <e p="Default.aspx" t="Include" />
+        <e p="Default.aspx.cs" t="Include" />
+        <e p="Default.aspx.designer.cs" t="Include" />
+        <e p="Diseno" t="Include">
+          <e p="AdminLTE" t="Include">
+            <e p="css" t="Include">
+              <e p="AdminLTE.css" t="Include" />
+              <e p="AdminLTE.min.css" t="Include" />
+              <e p="alt" t="Include">
+                <e p="AdminLTE-bootstrap-social.css" t="Include" />
+                <e p="AdminLTE-bootstrap-social.min.css" t="Include" />
+                <e p="AdminLTE-fullcalendar.css" t="Include" />
+                <e p="AdminLTE-fullcalendar.min.css" t="Include" />
+                <e p="AdminLTE-select2.css" t="Include" />
+                <e p="AdminLTE-select2.min.css" t="Include" />
+                <e p="AdminLTE-without-plugins.css" t="Include" />
+                <e p="AdminLTE-without-plugins.min.css" t="Include" />
+              </e>
+              <e p="skins" t="Include">
+                <e p="_all-skins.css" t="Include" />
+                <e p="_all-skins.min.css" t="Include" />
+                <e p="skin-black-light.css" t="Include" />
+                <e p="skin-black-light.min.css" t="Include" />
+                <e p="skin-black.css" t="Include" />
+                <e p="skin-black.min.css" t="Include" />
+                <e p="skin-blue-light.css" t="Include" />
+                <e p="skin-blue-light.min.css" t="Include" />
+                <e p="skin-blue.css" t="Include" />
+                <e p="skin-blue.min.css" t="Include" />
+                <e p="skin-green-light.css" t="Include" />
+                <e p="skin-green-light.min.css" t="Include" />
+                <e p="skin-green.css" t="Include" />
+                <e p="skin-green.min.css" t="Include" />
+                <e p="skin-purple-light.css" t="Include" />
+                <e p="skin-purple-light.min.css" t="Include" />
+                <e p="skin-purple.css" t="Include" />
+                <e p="skin-purple.min.css" t="Include" />
+                <e p="skin-red-light.css" t="Include" />
+                <e p="skin-red-light.min.css" t="Include" />
+                <e p="skin-red.css" t="Include" />
+                <e p="skin-red.min.css" t="Include" />
+                <e p="skin-yellow-light.css" t="Include" />
+                <e p="skin-yellow-light.min.css" t="Include" />
+                <e p="skin-yellow.css" t="Include" />
+                <e p="skin-yellow.min.css" t="Include" />
+              </e>
+            </e>
+            <e p="img" t="Include">
+              <e p="avatar.png" t="Include" />
+              <e p="avatar04.png" t="Include" />
+              <e p="avatar2.png" t="Include" />
+              <e p="avatar3.png" t="Include" />
+              <e p="avatar5.png" t="Include" />
+              <e p="boxed-bg.jpg" t="Include" />
+              <e p="boxed-bg.png" t="Include" />
+              <e p="credit" t="Include">
+                <e p="american-express.png" t="Include" />
+                <e p="cirrus.png" t="Include" />
+                <e p="mastercard.png" t="Include" />
+                <e p="mestro.png" t="Include" />
+                <e p="paypal.png" t="Include" />
+                <e p="paypal2.png" t="Include" />
+                <e p="visa.png" t="Include" />
+              </e>
+              <e p="default-50x50.gif" t="Include" />
+              <e p="icons.png" t="Include" />
+              <e p="photo1.png" t="Include" />
+              <e p="photo2.png" t="Include" />
+              <e p="photo3.jpg" t="Include" />
+              <e p="photo4.jpg" t="Include" />
+              <e p="user1-128x128.jpg" t="Include" />
+              <e p="user2-160x160.jpg" t="Include" />
+              <e p="user3-128x128.jpg" t="Include" />
+              <e p="user4-128x128.jpg" t="Include" />
+              <e p="user5-128x128.jpg" t="Include" />
+              <e p="user6-128x128.jpg" t="Include" />
+              <e p="user7-128x128.jpg" t="Include" />
+              <e p="user8-128x128.jpg" t="Include" />
+            </e>
+            <e p="js" t="Include">
+              <e p="app.js" t="Include" />
+              <e p="app.min.js" t="Include" />
+              <e p="demo.js" t="Include" />
+              <e p="pages" t="Include">
+                <e p="dashboard.js" t="Include" />
+                <e p="dashboard2.js" t="Include" />
+              </e>
+            </e>
+            <e p="plugins" t="Include">
+              <e p="bootstrap-slider" t="Include">
+                <e p="bootstrap-slider.js" t="Include" />
+                <e p="slider.css" t="Include" />
+              </e>
+              <e p="bootstrap-wysihtml5" t="Include">
+                <e p="bootstrap3-wysihtml5.all.js" t="Include" />
+                <e p="bootstrap3-wysihtml5.all.min.js" t="Include" />
+                <e p="bootstrap3-wysihtml5.css" t="Include" />
+                <e p="bootstrap3-wysihtml5.min.css" t="Include" />
+              </e>
+              <e p="chartjs" t="Include">
+                <e p="Chart.js" t="Include" />
+                <e p="Chart.min.js" t="Include" />
+              </e>
+              <e p="ckeditor" t="Include">
+                <e p="adapters" t="Include">
+                  <e p="jquery.js" t="Include" />
+                </e>
+                <e p="build-config.js" t="Include" />
+                <e p="CHANGES.md" t="Include" />
+                <e p="ckeditor.js" t="Include" />
+                <e p="config.js" t="Include" />
+                <e p="contents.css" t="Include" />
+                <e p="lang" t="Include">
+                  <e p="af.js" t="Include" />
+                  <e p="ar.js" t="Include" />
+                  <e p="bg.js" t="Include" />
+                  <e p="bn.js" t="Include" />
+                  <e p="bs.js" t="Include" />
+                  <e p="ca.js" t="Include" />
+                  <e p="cs.js" t="Include" />
+                  <e p="cy.js" t="Include" />
+                  <e p="da.js" t="Include" />
+                  <e p="de-ch.js" t="Include" />
+                  <e p="de.js" t="Include" />
+                  <e p="el.js" t="Include" />
+                  <e p="en-au.js" t="Include" />
+                  <e p="en-ca.js" t="Include" />
+                  <e p="en-gb.js" t="Include" />
+                  <e p="en.js" t="Include" />
+                  <e p="eo.js" t="Include" />
+                  <e p="es.js" t="Include" />
+                  <e p="et.js" t="Include" />
+                  <e p="eu.js" t="Include" />
+                  <e p="fa.js" t="Include" />
+                  <e p="fi.js" t="Include" />
+                  <e p="fo.js" t="Include" />
+                  <e p="fr-ca.js" t="Include" />
+                  <e p="fr.js" t="Include" />
+                  <e p="gl.js" t="Include" />
+                  <e p="gu.js" t="Include" />
+                  <e p="he.js" t="Include" />
+                  <e p="hi.js" t="Include" />
+                  <e p="hr.js" t="Include" />
+                  <e p="hu.js" t="Include" />
+                  <e p="id.js" t="Include" />
+                  <e p="is.js" t="Include" />
+                  <e p="it.js" t="Include" />
+                  <e p="ja.js" t="Include" />
+                  <e p="ka.js" t="Include" />
+                  <e p="km.js" t="Include" />
+                  <e p="ko.js" t="Include" />
+                  <e p="ku.js" t="Include" />
+                  <e p="lt.js" t="Include" />
+                  <e p="lv.js" t="Include" />
+                  <e p="mk.js" t="Include" />
+                  <e p="mn.js" t="Include" />
+                  <e p="ms.js" t="Include" />
+                  <e p="nb.js" t="Include" />
+                  <e p="nl.js" t="Include" />
+                  <e p="no.js" t="Include" />
+                  <e p="pl.js" t="Include" />
+                  <e p="pt-br.js" t="Include" />
+                  <e p="pt.js" t="Include" />
+                  <e p="ro.js" t="Include" />
+                  <e p="ru.js" t="Include" />
+                  <e p="si.js" t="Include" />
+                  <e p="sk.js" t="Include" />
+                  <e p="sl.js" t="Include" />
+                  <e p="sq.js" t="Include" />
+                  <e p="sr-latn.js" t="Include" />
+                  <e p="sr.js" t="Include" />
+                  <e p="sv.js" t="Include" />
+                  <e p="th.js" t="Include" />
+                  <e p="tr.js" t="Include" />
+                  <e p="tt.js" t="Include" />
+                  <e p="ug.js" t="Include" />
+                  <e p="uk.js" t="Include" />
+                  <e p="vi.js" t="Include" />
+                  <e p="zh-cn.js" t="Include" />
+                  <e p="zh.js" t="Include" />
+                </e>
+                <e p="LICENSE.md" t="Include" />
+                <e p="plugins" t="Include">
+                  <e p="a11yhelp" t="Include">
+                    <e p="dialogs" t="Include">
+                      <e p="a11yhelp.js" t="Include" />
+                      <e p="lang" t="Include">
+                        <e p="_translationstatus.txt" t="Include" />
+                        <e p="af.js" t="Include" />
+                        <e p="ar.js" t="Include" />
+                        <e p="bg.js" t="Include" />
+                        <e p="ca.js" t="Include" />
+                        <e p="cs.js" t="Include" />
+                        <e p="cy.js" t="Include" />
+                        <e p="da.js" t="Include" />
+                        <e p="de-ch.js" t="Include" />
+                        <e p="de.js" t="Include" />
+                        <e p="el.js" t="Include" />
+                        <e p="en-gb.js" t="Include" />
+                        <e p="en.js" t="Include" />
+                        <e p="eo.js" t="Include" />
+                        <e p="es.js" t="Include" />
+                        <e p="et.js" t="Include" />
+                        <e p="eu.js" t="Include" />
+                        <e p="fa.js" t="Include" />
+                        <e p="fi.js" t="Include" />
+                        <e p="fo.js" t="Include" />
+                        <e p="fr-ca.js" t="Include" />
+                        <e p="fr.js" t="Include" />
+                        <e p="gl.js" t="Include" />
+                        <e p="gu.js" t="Include" />
+                        <e p="he.js" t="Include" />
+                        <e p="hi.js" t="Include" />
+                        <e p="hr.js" t="Include" />
+                        <e p="hu.js" t="Include" />
+                        <e p="id.js" t="Include" />
+                        <e p="it.js" t="Include" />
+                        <e p="ja.js" t="Include" />
+                        <e p="km.js" t="Include" />
+                        <e p="ko.js" t="Include" />
+                        <e p="ku.js" t="Include" />
+                        <e p="lt.js" t="Include" />
+                        <e p="lv.js" t="Include" />
+                        <e p="mk.js" t="Include" />
+                        <e p="mn.js" t="Include" />
+                        <e p="nb.js" t="Include" />
+                        <e p="nl.js" t="Include" />
+                        <e p="no.js" t="Include" />
+                        <e p="pl.js" t="Include" />
+                        <e p="pt-br.js" t="Include" />
+                        <e p="pt.js" t="Include" />
+                        <e p="ro.js" t="Include" />
+                        <e p="ru.js" t="Include" />
+                        <e p="si.js" t="Include" />
+                        <e p="sk.js" t="Include" />
+                        <e p="sl.js" t="Include" />
+                        <e p="sq.js" t="Include" />
+                        <e p="sr-latn.js" t="Include" />
+                        <e p="sr.js" t="Include" />
+                        <e p="sv.js" t="Include" />
+                        <e p="th.js" t="Include" />
+                        <e p="tr.js" t="Include" />
+                        <e p="tt.js" t="Include" />
+                        <e p="ug.js" t="Include" />
+                        <e p="uk.js" t="Include" />
+                        <e p="vi.js" t="Include" />
+                        <e p="zh-cn.js" t="Include" />
+                        <e p="zh.js" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                  <e p="about" t="Include">
+                    <e p="dialogs" t="Include">
+                      <e p="about.js" t="Include" />
+                      <e p="hidpi" t="Include">
+                        <e p="logo_ckeditor.png" t="Include" />
+                      </e>
+                      <e p="logo_ckeditor.png" t="Include" />
+                    </e>
+                  </e>
+                  <e p="clipboard" t="Include">
+                    <e p="dialogs" t="Include">
+                      <e p="paste.js" t="Include" />
+                    </e>
+                  </e>
+                  <e p="dialog" t="Include">
+                    <e p="dialogDefinition.js" t="Include" />
+                  </e>
+                  <e p="icons.png" t="Include" />
+                  <e p="icons_hidpi.png" t="Include" />
+                  <e p="image" t="Include">
+                    <e p="dialogs" t="Include">
+                      <e p="image.js" t="Include" />
+                    </e>
+                    <e p="images" t="Include">
+                      <e p="noimage.png" t="Include" />
+                    </e>
+                  </e>
+                  <e p="link" t="Include">
+                    <e p="dialogs" t="Include">
+                      <e p="anchor.js" t="Include" />
+                      <e p="link.js" t="Include" />
+                    </e>
+                    <e p="images" t="Include">
+                      <e p="anchor.png" t="Include" />
+                      <e p="hidpi" t="Include">
+                        <e p="anchor.png" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                  <e p="magicline" t="Include">
+                    <e p="images" t="Include">
+                      <e p="hidpi" t="Include">
+                        <e p="icon-rtl.png" t="Include" />
+                        <e p="icon.png" t="Include" />
+                      </e>
+                      <e p="icon-rtl.png" t="Include" />
+                      <e p="icon.png" t="Include" />
+                    </e>
+                  </e>
+                  <e p="pastefromword" t="Include">
+                    <e p="filter" t="Include">
+                      <e p="default.js" t="Include" />
+                    </e>
+                  </e>
+                  <e p="scayt" t="Include">
+                    <e p="CHANGELOG.md" t="Include" />
+                    <e p="dialogs" t="Include">
+                      <e p="options.js" t="Include" />
+                      <e p="toolbar.css" t="Include" />
+                    </e>
+                    <e p="LICENSE.md" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                  <e p="specialchar" t="Include">
+                    <e p="dialogs" t="Include">
+                      <e p="lang" t="Include">
+                        <e p="_translationstatus.txt" t="Include" />
+                        <e p="af.js" t="Include" />
+                        <e p="ar.js" t="Include" />
+                        <e p="bg.js" t="Include" />
+                        <e p="ca.js" t="Include" />
+                        <e p="cs.js" t="Include" />
+                        <e p="cy.js" t="Include" />
+                        <e p="da.js" t="Include" />
+                        <e p="de-ch.js" t="Include" />
+                        <e p="de.js" t="Include" />
+                        <e p="el.js" t="Include" />
+                        <e p="en-gb.js" t="Include" />
+                        <e p="en.js" t="Include" />
+                        <e p="eo.js" t="Include" />
+                        <e p="es.js" t="Include" />
+                        <e p="et.js" t="Include" />
+                        <e p="eu.js" t="Include" />
+                        <e p="fa.js" t="Include" />
+                        <e p="fi.js" t="Include" />
+                        <e p="fr-ca.js" t="Include" />
+                        <e p="fr.js" t="Include" />
+                        <e p="gl.js" t="Include" />
+                        <e p="he.js" t="Include" />
+                        <e p="hr.js" t="Include" />
+                        <e p="hu.js" t="Include" />
+                        <e p="id.js" t="Include" />
+                        <e p="it.js" t="Include" />
+                        <e p="ja.js" t="Include" />
+                        <e p="km.js" t="Include" />
+                        <e p="ko.js" t="Include" />
+                        <e p="ku.js" t="Include" />
+                        <e p="lt.js" t="Include" />
+                        <e p="lv.js" t="Include" />
+                        <e p="nb.js" t="Include" />
+                        <e p="nl.js" t="Include" />
+                        <e p="no.js" t="Include" />
+                        <e p="pl.js" t="Include" />
+                        <e p="pt-br.js" t="Include" />
+                        <e p="pt.js" t="Include" />
+                        <e p="ru.js" t="Include" />
+                        <e p="si.js" t="Include" />
+                        <e p="sk.js" t="Include" />
+                        <e p="sl.js" t="Include" />
+                        <e p="sq.js" t="Include" />
+                        <e p="sv.js" t="Include" />
+                        <e p="th.js" t="Include" />
+                        <e p="tr.js" t="Include" />
+                        <e p="tt.js" t="Include" />
+                        <e p="ug.js" t="Include" />
+                        <e p="uk.js" t="Include" />
+                        <e p="vi.js" t="Include" />
+                        <e p="zh-cn.js" t="Include" />
+                        <e p="zh.js" t="Include" />
+                      </e>
+                      <e p="specialchar.js" t="Include" />
+                    </e>
+                  </e>
+                  <e p="table" t="Include">
+                    <e p="dialogs" t="Include">
+                      <e p="table.js" t="Include" />
+                    </e>
+                  </e>
+                  <e p="tabletools" t="Include">
+                    <e p="dialogs" t="Include">
+                      <e p="tableCell.js" t="Include" />
+                    </e>
+                  </e>
+                  <e p="wsc" t="Include">
+                    <e p="dialogs" t="Include">
+                      <e p="ciframe.html" t="Include" />
+                      <e p="tmpFrameset.html" t="Include" />
+                      <e p="wsc.css" t="Include" />
+                      <e p="wsc.js" t="Include" />
+                      <e p="wsc_ie.js" t="Include" />
+                    </e>
+                    <e p="LICENSE.md" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                </e>
+                <e p="README.md" t="Include" />
+                <e p="samples" t="Include">
+                  <e p="css" t="Include">
+                    <e p="samples.css" t="Include" />
+                  </e>
+                  <e p="img" t="Include">
+                    <e p="github-top.png" t="Include" />
+                    <e p="header-bg.png" t="Include" />
+                    <e p="header-separator.png" t="Include" />
+                    <e p="logo.png" t="Include" />
+                    <e p="navigation-tip.png" t="Include" />
+                  </e>
+                  <e p="index.html" t="Include" />
+                  <e p="js" t="Include">
+                    <e p="sample.js" t="Include" />
+                    <e p="sf.js" t="Include" />
+                  </e>
+                  <e p="old" t="Include">
+                    <e p="ajax.html" t="Include" />
+                    <e p="api.html" t="Include" />
+                    <e p="appendto.html" t="Include" />
+                    <e p="assets" t="Include">
+                      <e p="inlineall" t="Include">
+                        <e p="logo.png" t="Include" />
+                      </e>
+                      <e p="outputxhtml" t="Include">
+                        <e p="outputxhtml.css" t="Include" />
+                      </e>
+                      <e p="posteddata.php" t="Include" />
+                      <e p="sample.jpg" t="Include" />
+                      <e p="uilanguages" t="Include">
+                        <e p="languages.js" t="Include" />
+                      </e>
+                    </e>
+                    <e p="datafiltering.html" t="Include" />
+                    <e p="dialog" t="Include">
+                      <e p="assets" t="Include">
+                        <e p="my_dialog.js" t="Include" />
+                      </e>
+                      <e p="dialog.html" t="Include" />
+                    </e>
+                    <e p="divreplace.html" t="Include" />
+                    <e p="enterkey" t="Include">
+                      <e p="enterkey.html" t="Include" />
+                    </e>
+                    <e p="htmlwriter" t="Include">
+                      <e p="assets" t="Include">
+                        <e p="outputforflash" t="Include">
+                          <e p="outputforflash.fla" t="Include" />
+                          <e p="outputforflash.swf" t="Include" />
+                          <e p="swfobject.js" t="Include" />
+                        </e>
+                      </e>
+                      <e p="outputforflash.html" t="Include" />
+                      <e p="outputhtml.html" t="Include" />
+                    </e>
+                    <e p="index.html" t="Include" />
+                    <e p="inlineall.html" t="Include" />
+                    <e p="inlinebycode.html" t="Include" />
+                    <e p="inlinetextarea.html" t="Include" />
+                    <e p="jquery.html" t="Include" />
+                    <e p="magicline" t="Include">
+                      <e p="magicline.html" t="Include" />
+                    </e>
+                    <e p="readonly.html" t="Include" />
+                    <e p="replacebyclass.html" t="Include" />
+                    <e p="replacebycode.html" t="Include" />
+                    <e p="sample.css" t="Include" />
+                    <e p="sample.js" t="Include" />
+                    <e p="sample_posteddata.php" t="Include" />
+                    <e p="tabindex.html" t="Include" />
+                    <e p="toolbar" t="Include">
+                      <e p="toolbar.html" t="Include" />
+                    </e>
+                    <e p="uicolor.html" t="Include" />
+                    <e p="uilanguages.html" t="Include" />
+                    <e p="wysiwygarea" t="Include">
+                      <e p="fullpage.html" t="Include" />
+                    </e>
+                    <e p="xhtmlstyle.html" t="Include" />
+                  </e>
+                  <e p="toolbarconfigurator" t="Include">
+                    <e p="css" t="Include">
+                      <e p="fontello.css" t="Include" />
+                    </e>
+                    <e p="font" t="Include">
+                      <e p="config.json" t="Include" />
+                      <e p="fontello.eot" t="Include" />
+                      <e p="fontello.svg" t="Include" />
+                      <e p="fontello.ttf" t="Include" />
+                      <e p="fontello.woff" t="Include" />
+                      <e p="LICENSE.txt" t="Include" />
+                    </e>
+                    <e p="index.html" t="Include" />
+                    <e p="js" t="Include">
+                      <e p="abstracttoolbarmodifier.js" t="Include" />
+                      <e p="fulltoolbareditor.js" t="Include" />
+                      <e p="toolbarmodifier.js" t="Include" />
+                      <e p="toolbartextmodifier.js" t="Include" />
+                    </e>
+                    <e p="lib" t="Include">
+                      <e p="codemirror" t="Include">
+                        <e p="codemirror.css" t="Include" />
+                        <e p="codemirror.js" t="Include" />
+                        <e p="javascript.js" t="Include" />
+                        <e p="LICENSE" t="Include" />
+                        <e p="neo.css" t="Include" />
+                        <e p="show-hint.css" t="Include" />
+                        <e p="show-hint.js" t="Include" />
+                      </e>
+                    </e>
+                  </e>
+                </e>
+                <e p="skins" t="Include">
+                  <e p="moono" t="Include">
+                    <e p="dialog.css" t="Include" />
+                    <e p="dialog_ie.css" t="Include" />
+                    <e p="dialog_ie7.css" t="Include" />
+                    <e p="dialog_ie8.css" t="Include" />
+                    <e p="dialog_iequirks.css" t="Include" />
+                    <e p="editor.css" t="Include" />
+                    <e p="editor_gecko.css" t="Include" />
+                    <e p="editor_ie.css" t="Include" />
+                    <e p="editor_ie7.css" t="Include" />
+                    <e p="editor_ie8.css" t="Include" />
+                    <e p="editor_iequirks.css" t="Include" />
+                    <e p="icons.png" t="Include" />
+                    <e p="icons_hidpi.png" t="Include" />
+                    <e p="images" t="Include">
+                      <e p="arrow.png" t="Include" />
+                      <e p="close.png" t="Include" />
+                      <e p="hidpi" t="Include">
+                        <e p="close.png" t="Include" />
+                        <e p="lock-open.png" t="Include" />
+                        <e p="lock.png" t="Include" />
+                        <e p="refresh.png" t="Include" />
+                      </e>
+                      <e p="lock-open.png" t="Include" />
+                      <e p="lock.png" t="Include" />
+                      <e p="refresh.png" t="Include" />
+                      <e p="spinner.gif" t="Include" />
+                    </e>
+                    <e p="README.md" t="Include" />
+                  </e>
+                </e>
+                <e p="styles.js" t="Include" />
+              </e>
+              <e p="colorpicker" t="Include">
+                <e p="bootstrap-colorpicker.css" t="Include" />
+                <e p="bootstrap-colorpicker.js" t="Include" />
+                <e p="bootstrap-colorpicker.min.css" t="Include" />
+                <e p="bootstrap-colorpicker.min.js" t="Include" />
+                <e p="img" t="Include">
+                  <e p="alpha-horizontal.png" t="Include" />
+                  <e p="alpha.png" t="Include" />
+                  <e p="hue-horizontal.png" t="Include" />
+                  <e p="hue.png" t="Include" />
+                  <e p="saturation.png" t="Include" />
+                </e>
+              </e>
+              <e p="datatables" t="Include">
+                <e p="dataTables.bootstrap.css" t="Include" />
+                <e p="dataTables.bootstrap.js" t="Include" />
+                <e p="dataTables.bootstrap.min.js" t="Include" />
+                <e p="extensions" t="Include">
+                  <e p="AutoFill" t="Include">
+                    <e p="css" t="Include">
+                      <e p="dataTables.autoFill.css" t="Include" />
+                      <e p="dataTables.autoFill.min.css" t="Include" />
+                    </e>
+                    <e p="examples" t="Include">
+                      <e p="columns.html" t="Include" />
+                      <e p="complete-callback.html" t="Include" />
+                      <e p="fill-both.html" t="Include" />
+                      <e p="fill-horizontal.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="scrolling.html" t="Include" />
+                      <e p="simple.html" t="Include" />
+                      <e p="step-callback.html" t="Include" />
+                    </e>
+                    <e p="images" t="Include">
+                      <e p="filler.png" t="Include" />
+                    </e>
+                    <e p="js" t="Include">
+                      <e p="dataTables.autoFill.js" t="Include" />
+                      <e p="dataTables.autoFill.min.js" t="Include" />
+                    </e>
+                    <e p="Readme.txt" t="Include" />
+                  </e>
+                  <e p="ColReorder" t="Include">
+                    <e p="css" t="Include">
+                      <e p="dataTables.colReorder.css" t="Include" />
+                      <e p="dataTables.colReorder.min.css" t="Include" />
+                    </e>
+                    <e p="examples" t="Include">
+                      <e p="alt_insert.html" t="Include" />
+                      <e p="col_filter.html" t="Include" />
+                      <e p="colvis.html" t="Include" />
+                      <e p="fixedcolumns.html" t="Include" />
+                      <e p="fixedheader.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="jqueryui.html" t="Include" />
+                      <e p="new_init.html" t="Include" />
+                      <e p="predefined.html" t="Include" />
+                      <e p="realtime.html" t="Include" />
+                      <e p="reset.html" t="Include" />
+                      <e p="scrolling.html" t="Include" />
+                      <e p="server_side.html" t="Include" />
+                      <e p="simple.html" t="Include" />
+                      <e p="state_save.html" t="Include" />
+                    </e>
+                    <e p="images" t="Include">
+                      <e p="insert.png" t="Include" />
+                    </e>
+                    <e p="js" t="Include">
+                      <e p="dataTables.colReorder.js" t="Include" />
+                      <e p="dataTables.colReorder.min.js" t="Include" />
+                    </e>
+                    <e p="LICENSE.txt" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                  <e p="ColVis" t="Include">
+                    <e p="css" t="Include">
+                      <e p="dataTables.colVis.css" t="Include" />
+                      <e p="dataTables.colvis.jqueryui.css" t="Include" />
+                      <e p="dataTables.colVis.min.css" t="Include" />
+                    </e>
+                    <e p="examples" t="Include">
+                      <e p="button_order.html" t="Include" />
+                      <e p="exclude_columns.html" t="Include" />
+                      <e p="group_columns.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="jqueryui.html" t="Include" />
+                      <e p="mouseover.html" t="Include" />
+                      <e p="new_init.html" t="Include" />
+                      <e p="restore.html" t="Include" />
+                      <e p="simple.html" t="Include" />
+                      <e p="text.html" t="Include" />
+                      <e p="title_callback.html" t="Include" />
+                      <e p="two_tables.html" t="Include" />
+                      <e p="two_tables_identical.html" t="Include" />
+                    </e>
+                    <e p="js" t="Include">
+                      <e p="dataTables.colVis.js" t="Include" />
+                      <e p="dataTables.colVis.min.js" t="Include" />
+                    </e>
+                    <e p="LICENSE.txt" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                  <e p="FixedColumns" t="Include">
+                    <e p="css" t="Include">
+                      <e p="dataTables.fixedColumns.css" t="Include" />
+                      <e p="dataTables.fixedColumns.min.css" t="Include" />
+                    </e>
+                    <e p="examples" t="Include">
+                      <e p="bootstrap.html" t="Include" />
+                      <e p="col_filter.html" t="Include" />
+                      <e p="colvis.html" t="Include" />
+                      <e p="css_size.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="index_column.html" t="Include" />
+                      <e p="left_right_columns.html" t="Include" />
+                      <e p="right_column.html" t="Include" />
+                      <e p="rowspan.html" t="Include" />
+                      <e p="server-side-processing.html" t="Include" />
+                      <e p="simple.html" t="Include" />
+                      <e p="size_fixed.html" t="Include" />
+                      <e p="size_fluid.html" t="Include" />
+                      <e p="two_columns.html" t="Include" />
+                    </e>
+                    <e p="js" t="Include">
+                      <e p="dataTables.fixedColumns.js" t="Include" />
+                      <e p="dataTables.fixedColumns.min.js" t="Include" />
+                    </e>
+                    <e p="LICENSE.txt" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                  <e p="FixedHeader" t="Include">
+                    <e p="css" t="Include">
+                      <e p="dataTables.fixedHeader.css" t="Include" />
+                      <e p="dataTables.fixedHeader.min.css" t="Include" />
+                    </e>
+                    <e p="examples" t="Include">
+                      <e p="header_footer.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="simple.html" t="Include" />
+                      <e p="top_left_right.html" t="Include" />
+                      <e p="two_tables.html" t="Include" />
+                      <e p="zIndexes.html" t="Include" />
+                    </e>
+                    <e p="js" t="Include">
+                      <e p="dataTables.fixedHeader.js" t="Include" />
+                      <e p="dataTables.fixedHeader.min.js" t="Include" />
+                    </e>
+                    <e p="Readme.txt" t="Include" />
+                  </e>
+                  <e p="KeyTable" t="Include">
+                    <e p="css" t="Include">
+                      <e p="dataTables.keyTable.css" t="Include" />
+                      <e p="dataTables.keyTable.min.css" t="Include" />
+                    </e>
+                    <e p="examples" t="Include">
+                      <e p="events.html" t="Include" />
+                      <e p="html.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="scrolling.html" t="Include" />
+                      <e p="simple.html" t="Include" />
+                    </e>
+                    <e p="js" t="Include">
+                      <e p="dataTables.keyTable.js" t="Include" />
+                      <e p="dataTables.keyTable.min.js" t="Include" />
+                    </e>
+                    <e p="Readme.txt" t="Include" />
+                  </e>
+                  <e p="Responsive" t="Include">
+                    <e p="css" t="Include">
+                      <e p="dataTables.responsive.css" t="Include" />
+                      <e p="dataTables.responsive.scss" t="Include" />
+                    </e>
+                    <e p="examples" t="Include">
+                      <e p="child-rows" t="Include">
+                        <e p="column-control.html" t="Include" />
+                        <e p="custom-renderer.html" t="Include" />
+                        <e p="disable-child-rows.html" t="Include" />
+                        <e p="index.html" t="Include" />
+                        <e p="right-column.html" t="Include" />
+                        <e p="whole-row-control.html" t="Include" />
+                      </e>
+                      <e p="display-control" t="Include">
+                        <e p="auto.html" t="Include" />
+                        <e p="classes.html" t="Include" />
+                        <e p="complexHeader.html" t="Include" />
+                        <e p="fixedheader.html" t="Include" />
+                        <e p="index.html" t="Include" />
+                        <e p="init-classes.html" t="Include" />
+                      </e>
+                      <e p="index.html" t="Include" />
+                      <e p="initialisation" t="Include">
+                        <e p="ajax.html" t="Include" />
+                        <e p="className.html" t="Include" />
+                        <e p="default.html" t="Include" />
+                        <e p="index.html" t="Include" />
+                        <e p="new.html" t="Include" />
+                        <e p="option.html" t="Include" />
+                      </e>
+                      <e p="styling" t="Include">
+                        <e p="bootstrap.html" t="Include" />
+                        <e p="compact.html" t="Include" />
+                        <e p="foundation.html" t="Include" />
+                        <e p="index.html" t="Include" />
+                        <e p="scrolling.html" t="Include" />
+                      </e>
+                    </e>
+                    <e p="js" t="Include">
+                      <e p="dataTables.responsive.js" t="Include" />
+                      <e p="dataTables.responsive.min.js" t="Include" />
+                    </e>
+                    <e p="LICENSE.txt" t="Include" />
+                    <e p="README.md" t="Include" />
+                  </e>
+                  <e p="Scroller" t="Include">
+                    <e p="css" t="Include">
+                      <e p="dataTables.scroller.css" t="Include" />
+                      <e p="dataTables.scroller.min.css" t="Include" />
+                    </e>
+                    <e p="examples" t="Include">
+                      <e p="api_scrolling.html" t="Include" />
+                      <e p="data" t="Include">
+                        <e p="2500.txt" t="Include" />
+                        <e p="ssp.php" t="Include" />
+                      </e>
+                      <e p="index.html" t="Include" />
+                      <e p="large_js_source.html" t="Include" />
+                      <e p="server-side_processing.html" t="Include" />
+                      <e p="simple.html" t="Include" />
+                      <e p="state_saving.html" t="Include" />
+                    </e>
+                    <e p="images" t="Include">
+                      <e p="loading-background.png" t="Include" />
+                    </e>
+                    <e p="js" t="Include">
+                      <e p="dataTables.scroller.js" t="Include" />
+                      <e p="dataTables.scroller.min.js" t="Include" />
+                    </e>
+                    <e p="Readme.txt" t="Include" />
+                  </e>
+                  <e p="tabletools" t="Include">
+                    <e p="css" t="Include">
+                      <e p="dataTables.tableTools.css" t="Include" />
+                      <e p="dataTables.tableTools.min.css" t="Include" />
+                    </e>
+                    <e p="examples" t="Include">
+                      <e p="ajax.html" t="Include" />
+                      <e p="alter_buttons.html" t="Include" />
+                      <e p="bootstrap.html" t="Include" />
+                      <e p="button_text.html" t="Include" />
+                      <e p="collection.html" t="Include" />
+                      <e p="defaults.html" t="Include" />
+                      <e p="index.html" t="Include" />
+                      <e p="jqueryui.html" t="Include" />
+                      <e p="multi_instance.html" t="Include" />
+                      <e p="multiple_tables.html" t="Include" />
+                      <e p="new_init.html" t="Include" />
+                      <e p="pdf_message.html" t="Include" />
+                      <e p="plug-in.html" t="Include" />
+                      <e p="select_column.html" t="Include" />
+                      <e p="select_multi.html" t="Include" />
+                      <e p="select_os.html" t="Include" />
+                      <e p="select_single.html" t="Include" />
+                      <e p="simple.html" t="Include" />
+                      <e p="swf_path.html" t="Include" />
+                    </e>
+                    <e p="images" t="Include">
+                      <e p="collection.png" t="Include" />
+                      <e p="collection_hover.png" t="Include" />
+                      <e p="copy.png" t="Include" />
+                      <e p="copy_hover.png" t="Include" />
+                      <e p="csv.png" t="Include" />
+                      <e p="csv_hover.png" t="Include" />
+                      <e p="pdf.png" t="Include" />
+                      <e p="pdf_hover.png" t="Include" />
+                      <e p="print.png" t="Include" />
+                      <e p="print_hover.png" t="Include" />
+                      <e p="psd" t="Include">
+                        <e p="collection.psd" t="Include" />
+                        <e p="copy document.psd" t="Include" />
+                        <e p="file_types.psd" t="Include" />
+                        <e p="printer.psd" t="Include" />
+                      </e>
+                      <e p="xls.png" t="Include" />
+                      <e p="xls_hover.png" t="Include" />
+                    </e>
+                    <e p="js" t="Include">
+                      <e p="dataTables.tableTools.js" t="Include" />
+                      <e p="dataTables.tableTools.min.js" t="Include" />
+                    </e>
+                    <e p="README.md" t="Include" />
+                    <e p="swf" t="Include">
+                      <e p="copy_csv_xls.swf" t="Include" />
+                      <e p="copy_csv_xls_pdf.swf" t="Include" />
+                    </e>
+                  </e>
+                </e>
+                <e p="images" t="Include">
+                  <e p="sort_asc.png" t="Include" />
+                  <e p="sort_asc_disabled.png" t="Include" />
+                  <e p="sort_both.png" t="Include" />
+                  <e p="sort_desc.png" t="Include" />
+                  <e p="sort_desc_disabled.png" t="Include" />
+                </e>
+                <e p="jquery.dataTables.css" t="Include" />
+                <e p="jquery.dataTables.js" t="Include" />
+                <e p="jquery.dataTables.min.css" t="Include" />
+                <e p="jquery.dataTables.min.js" t="Include" />
+                <e p="jquery.dataTables_themeroller.css" t="Include" />
+              </e>
+              <e p="datepicker" t="Include">
+                <e p="bootstrap-datepicker.js" t="Include" />
+                <e p="datepicker3.css" t="Include" />
+                <e p="locales" t="Include">
+                  <e p="bootstrap-datepicker.ar.js" t="Include" />
+                  <e p="bootstrap-datepicker.az.js" t="Include" />
+                  <e p="bootstrap-datepicker.bg.js" t="Include" />
+                  <e p="bootstrap-datepicker.ca.js" t="Include" />
+                  <e p="bootstrap-datepicker.cs.js" t="Include" />
+                  <e p="bootstrap-datepicker.cy.js" t="Include" />
+                  <e p="bootstrap-datepicker.da.js" t="Include" />
+                  <e p="bootstrap-datepicker.de.js" t="Include" />
+                  <e p="bootstrap-datepicker.el.js" t="Include" />
+                  <e p="bootstrap-datepicker.es.js" t="Include" />
+                  <e p="bootstrap-datepicker.et.js" t="Include" />
+                  <e p="bootstrap-datepicker.fa.js" t="Include" />
+                  <e p="bootstrap-datepicker.fi.js" t="Include" />
+                  <e p="bootstrap-datepicker.fr.js" t="Include" />
+                  <e p="bootstrap-datepicker.gl.js" t="Include" />
+                  <e p="bootstrap-datepicker.he.js" t="Include" />
+                  <e p="bootstrap-datepicker.hr.js" t="Include" />
+                  <e p="bootstrap-datepicker.hu.js" t="Include" />
+                  <e p="bootstrap-datepicker.id.js" t="Include" />
+                  <e p="bootstrap-datepicker.is.js" t="Include" />
+                  <e p="bootstrap-datepicker.it.js" t="Include" />
+                  <e p="bootstrap-datepicker.ja.js" t="Include" />
+                  <e p="bootstrap-datepicker.ka.js" t="Include" />
+                  <e p="bootstrap-datepicker.kk.js" t="Include" />
+                  <e p="bootstrap-datepicker.kr.js" t="Include" />
+                  <e p="bootstrap-datepicker.lt.js" t="Include" />
+                  <e p="bootstrap-datepicker.lv.js" t="Include" />
+                  <e p="bootstrap-datepicker.mk.js" t="Include" />
+                  <e p="bootstrap-datepicker.ms.js" t="Include" />
+                  <e p="bootstrap-datepicker.nb.js" t="Include" />
+                  <e p="bootstrap-datepicker.nl-BE.js" t="Include" />
+                  <e p="bootstrap-datepicker.nl.js" t="Include" />
+                  <e p="bootstrap-datepicker.no.js" t="Include" />
+                  <e p="bootstrap-datepicker.pl.js" t="Include" />
+                  <e p="bootstrap-datepicker.pt-BR.js" t="Include" />
+                  <e p="bootstrap-datepicker.pt.js" t="Include" />
+                  <e p="bootstrap-datepicker.ro.js" t="Include" />
+                  <e p="bootstrap-datepicker.rs-latin.js" t="Include" />
+                  <e p="bootstrap-datepicker.rs.js" t="Include" />
+                  <e p="bootstrap-datepicker.ru.js" t="Include" />
+                  <e p="bootstrap-datepicker.sk.js" t="Include" />
+                  <e p="bootstrap-datepicker.sl.js" t="Include" />
+                  <e p="bootstrap-datepicker.sq.js" t="Include" />
+                  <e p="bootstrap-datepicker.sv.js" t="Include" />
+                  <e p="bootstrap-datepicker.sw.js" t="Include" />
+                  <e p="bootstrap-datepicker.th.js" t="Include" />
+                  <e p="bootstrap-datepicker.tr.js" t="Include" />
+                  <e p="bootstrap-datepicker.ua.js" t="Include" />
+                  <e p="bootstrap-datepicker.vi.js" t="Include" />
+                  <e p="bootstrap-datepicker.zh-CN.js" t="Include" />
+                  <e p="bootstrap-datepicker.zh-TW.js" t="Include" />
+                </e>
+              </e>
+              <e p="daterangepicker" t="Include">
+                <e p="daterangepicker.css" t="Include" />
+                <e p="daterangepicker.js" t="Include" />
+                <e p="moment.js" t="Include" />
+                <e p="moment.min.js" t="Include" />
+              </e>
+              <e p="fastclick" t="Include">
+                <e p="fastclick.js" t="Include" />
+                <e p="fastclick.min.js" t="Include" />
+              </e>
+              <e p="flot" t="Include">
+                <e p="excanvas.js" t="Include" />
+                <e p="excanvas.min.js" t="Include" />
+                <e p="jquery.colorhelpers.js" t="Include" />
+                <e p="jquery.colorhelpers.min.js" t="Include" />
+                <e p="jquery.flot.canvas.js" t="Include" />
+                <e p="jquery.flot.canvas.min.js" t="Include" />
+                <e p="jquery.flot.categories.js" t="Include" />
+                <e p="jquery.flot.categories.min.js" t="Include" />
+                <e p="jquery.flot.crosshair.js" t="Include" />
+                <e p="jquery.flot.crosshair.min.js" t="Include" />
+                <e p="jquery.flot.errorbars.js" t="Include" />
+                <e p="jquery.flot.errorbars.min.js" t="Include" />
+                <e p="jquery.flot.fillbetween.js" t="Include" />
+                <e p="jquery.flot.fillbetween.min.js" t="Include" />
+                <e p="jquery.flot.image.js" t="Include" />
+                <e p="jquery.flot.image.min.js" t="Include" />
+                <e p="jquery.flot.js" t="Include" />
+                <e p="jquery.flot.min.js" t="Include" />
+                <e p="jquery.flot.navigate.js" t="Include" />
+                <e p="jquery.flot.navigate.min.js" t="Include" />
+                <e p="jquery.flot.pie.js" t="Include" />
+                <e p="jquery.flot.pie.min.js" t="Include" />
+                <e p="jquery.flot.resize.js" t="Include" />
+                <e p="jquery.flot.resize.min.js" t="Include" />
+                <e p="jquery.flot.selection.js" t="Include" />
+                <e p="jquery.flot.selection.min.js" t="Include" />
+                <e p="jquery.flot.stack.js" t="Include" />
+                <e p="jquery.flot.stack.min.js" t="Include" />
+                <e p="jquery.flot.symbol.js" t="Include" />
+                <e p="jquery.flot.symbol.min.js" t="Include" />
+                <e p="jquery.flot.threshold.js" t="Include" />
+                <e p="jquery.flot.threshold.min.js" t="Include" />
+                <e p="jquery.flot.time.js" t="Include" />
+                <e p="jquery.flot.time.min.js" t="Include" />
+              </e>
+              <e p="fullcalendar" t="Include">
+                <e p="fullcalendar.css" t="Include" />
+                <e p="fullcalendar.js" t="Include" />
+                <e p="fullcalendar.min.css" t="Include" />
+                <e p="fullcalendar.min.js" t="Include" />
+                <e p="fullcalendar.print.css" t="Include" />
+              </e>
+              <e p="iCheck" t="Include">
+                <e p="all.css" t="Include" />
+                <e p="flat" t="Include">
+                  <e p="_all.css" t="Include" />
+                  <e p="aero.css" t="Include" />
+                  <e p="aero.png" t="Include" />
+                  <e p="aero@2x.png" t="Include" />
+                  <e p="blue.css" t="Include" />
+                  <e p="blue.png" t="Include" />
+                  <e p="blue@2x.png" t="Include" />
+                  <e p="flat.css" t="Include" />
+                  <e p="flat.png" t="Include" />
+                  <e p="flat@2x.png" t="Include" />
+                  <e p="green.css" t="Include" />
+                  <e p="green.png" t="Include" />
+                  <e p="green@2x.png" t="Include" />
+                  <e p="grey.css" t="Include" />
+                  <e p="grey.png" t="Include" />
+                  <e p="grey@2x.png" t="Include" />
+                  <e p="orange.css" t="Include" />
+                  <e p="orange.png" t="Include" />
+                  <e p="orange@2x.png" t="Include" />
+                  <e p="pink.css" t="Include" />
+                  <e p="pink.png" t="Include" />
+                  <e p="pink@2x.png" t="Include" />
+                  <e p="purple.css" t="Include" />
+                  <e p="purple.png" t="Include" />
+                  <e p="purple@2x.png" t="Include" />
+                  <e p="red.css" t="Include" />
+                  <e p="red.png" t="Include" />
+                  <e p="red@2x.png" t="Include" />
+                  <e p="yellow.css" t="Include" />
+                  <e p="yellow.png" t="Include" />
+                  <e p="yellow@2x.png" t="Include" />
+                </e>
+                <e p="futurico" t="Include">
+                  <e p="futurico.css" t="Include" />
+                  <e p="futurico.png" t="Include" />
+                  <e p="futurico@2x.png" t="Include" />
+                </e>
+                <e p="icheck.js" t="Include" />
+                <e p="icheck.min.js" t="Include" />
+                <e p="line" t="Include">
+                  <e p="_all.css" t="Include" />
+                  <e p="aero.css" t="Include" />
+                  <e p="blue.css" t="Include" />
+                  <e p="green.css" t="Include" />
+                  <e p="grey.css" t="Include" />
+                  <e p="line.css" t="Include" />
+                  <e p="line.png" t="Include" />
+                  <e p="line@2x.png" t="Include" />
+                  <e p="orange.css" t="Include" />
+                  <e p="pink.css" t="Include" />
+                  <e p="purple.css" t="Include" />
+                  <e p="red.css" t="Include" />
+                  <e p="yellow.css" t="Include" />
+                </e>
+                <e p="minimal" t="Include">
+                  <e p="_all.css" t="Include" />
+                  <e p="aero.css" t="Include" />
+                  <e p="aero.png" t="Include" />
+                  <e p="aero@2x.png" t="Include" />
+                  <e p="blue.css" t="Include" />
+                  <e p="blue.png" t="Include" />
+                  <e p="blue@2x.png" t="Include" />
+                  <e p="green.css" t="Include" />
+                  <e p="green.png" t="Include" />
+                  <e p="green@2x.png" t="Include" />
+                  <e p="grey.css" t="Include" />
+                  <e p="grey.png" t="Include" />
+                  <e p="grey@2x.png" t="Include" />
+                  <e p="minimal.css" t="Include" />
+                  <e p="minimal.png" t="Include" />
+                  <e p="minimal@2x.png" t="Include" />
+                  <e p="orange.css" t="Include" />
+                  <e p="orange.png" t="Include" />
+                  <e p="orange@2x.png" t="Include" />
+                  <e p="pink.css" t="Include" />
+                  <e p="pink.png" t="Include" />
+                  <e p="pink@2x.png" t="Include" />
+                  <e p="purple.css" t="Include" />
+                  <e p="purple.png" t="Include" />
+                  <e p="purple@2x.png" t="Include" />
+                  <e p="red.css" t="Include" />
+                  <e p="red.png" t="Include" />
+                  <e p="red@2x.png" t="Include" />
+                  <e p="yellow.css" t="Include" />
+                  <e p="yellow.png" t="Include" />
+                  <e p="yellow@2x.png" t="Include" />
+                </e>
+                <e p="polaris" t="Include">
+                  <e p="polaris.css" t="Include" />
+                  <e p="polaris.png" t="Include" />
+                  <e p="polaris@2x.png" t="Include" />
+                </e>
+                <e p="square" t="Include">
+                  <e p="_all.css" t="Include" />
+                  <e p="aero.css" t="Include" />
+                  <e p="aero.png" t="Include" />
+                  <e p="aero@2x.png" t="Include" />
+                  <e p="blue.css" t="Include" />
+                  <e p="blue.png" t="Include" />
+                  <e p="blue@2x.png" t="Include" />
+                  <e p="green.css" t="Include" />
+                  <e p="green.png" t="Include" />
+                  <e p="green@2x.png" t="Include" />
+                  <e p="grey.css" t="Include" />
+                  <e p="grey.png" t="Include" />
+                  <e p="grey@2x.png" t="Include" />
+                  <e p="orange.css" t="Include" />
+                  <e p="orange.png" t="Include" />
+                  <e p="orange@2x.png" t="Include" />
+                  <e p="pink.css" t="Include" />
+                  <e p="pink.png" t="Include" />
+                  <e p="pink@2x.png" t="Include" />
+                  <e p="purple.css" t="Include" />
+                  <e p="purple.png" t="Include" />
+                  <e p="purple@2x.png" t="Include" />
+                  <e p="red.css" t="Include" />
+                  <e p="red.png" t="Include" />
+                  <e p="red@2x.png" t="Include" />
+                  <e p="square.css" t="Include" />
+                  <e p="square.png" t="Include" />
+                  <e p="square@2x.png" t="Include" />
+                  <e p="yellow.css" t="Include" />
+                  <e p="yellow.png" t="Include" />
+                  <e p="yellow@2x.png" t="Include" />
+                </e>
+              </e>
+              <e p="input-mask" t="Include">
+                <e p="jquery.inputmask.date.extensions.js" t="Include" />
+                <e p="jquery.inputmask.extensions.js" t="Include" />
+                <e p="jquery.inputmask.js" t="Include" />
+                <e p="jquery.inputmask.numeric.extensions.js" t="Include" />
+                <e p="jquery.inputmask.phone.extensions.js" t="Include" />
+                <e p="jquery.inputmask.regex.extensions.js" t="Include" />
+                <e p="phone-codes" t="Include">
+                  <e p="phone-be.json" t="Include" />
+                  <e p="phone-codes.json" t="Include" />
+                  <e p="Readme.txt" t="Include" />
+                </e>
+              </e>
+              <e p="ionslider" t="Include">
+                <e p="img" t="Include">
+                  <e p="sprite-skin-flat.png" t="Include" />
+                  <e p="sprite-skin-nice.png" t="Include" />
+                </e>
+                <e p="ion.rangeSlider.css" t="Include" />
+                <e p="ion.rangeSlider.min.js" t="Include" />
+                <e p="ion.rangeSlider.skinFlat.css" t="Include" />
+                <e p="ion.rangeSlider.skinNice.css" t="Include" />
+              </e>
+              <e p="jQuery" t="Include">
+                <e p="jquery-2.2.3.min.js" t="Include" />
+              </e>
+              <e p="jQueryUI" t="Include">
+                <e p="jquery-ui.js" t="Include" />
+                <e p="jquery-ui.min.js" t="Include" />
+              </e>
+              <e p="jvectormap" t="Include">
+                <e p="jquery-jvectormap-1.2.2.css" t="Include" />
+                <e p="jquery-jvectormap-1.2.2.min.js" t="Include" />
+                <e p="jquery-jvectormap-usa-en.js" t="Include" />
+                <e p="jquery-jvectormap-world-mill-en.js" t="Include" />
+              </e>
+              <e p="knob" t="Include">
+                <e p="jquery.knob.js" t="Include" />
+              </e>
+              <e p="morris" t="Include">
+                <e p="morris.css" t="Include" />
+                <e p="morris.js" t="Include" />
+                <e p="morris.min.js" t="Include" />
+              </e>
+              <e p="pace" t="Include">
+                <e p="pace.css" t="Include" />
+                <e p="pace.js" t="Include" />
+                <e p="pace.min.css" t="Include" />
+                <e p="pace.min.js" t="Include" />
+              </e>
+              <e p="select2" t="Include">
+                <e p="i18n" t="Include">
+                  <e p="ar.js" t="Include" />
+                  <e p="az.js" t="Include" />
+                  <e p="bg.js" t="Include" />
+                  <e p="ca.js" t="Include" />
+                  <e p="cs.js" t="Include" />
+                  <e p="da.js" t="Include" />
+                  <e p="de.js" t="Include" />
+                  <e p="el.js" t="Include" />
+                  <e p="en.js" t="Include" />
+                  <e p="es.js" t="Include" />
+                  <e p="et.js" t="Include" />
+                  <e p="eu.js" t="Include" />
+                  <e p="fa.js" t="Include" />
+                  <e p="fi.js" t="Include" />
+                  <e p="fr.js" t="Include" />
+                  <e p="gl.js" t="Include" />
+                  <e p="he.js" t="Include" />
+                  <e p="hi.js" t="Include" />
+                  <e p="hr.js" t="Include" />
+                  <e p="hu.js" t="Include" />
+                  <e p="id.js" t="Include" />
+                  <e p="is.js" t="Include" />
+                  <e p="it.js" t="Include" />
+                  <e p="ja.js" t="Include" />
+                  <e p="km.js" t="Include" />
+                  <e p="ko.js" t="Include" />
+                  <e p="lt.js" t="Include" />
+                  <e p="lv.js" t="Include" />
+                  <e p="mk.js" t="Include" />
+                  <e p="ms.js" t="Include" />
+                  <e p="nb.js" t="Include" />
+                  <e p="nl.js" t="Include" />
+                  <e p="pl.js" t="Include" />
+                  <e p="pt-br.js" t="Include" />
+                  <e p="pt.js" t="Include" />
+                  <e p="ro.js" t="Include" />
+                  <e p="ru.js" t="Include" />
+                  <e p="sk.js" t="Include" />
+                  <e p="sr-Cyrl.js" t="Include" />
+                  <e p="sr.js" t="Include" />
+                  <e p="sv.js" t="Include" />
+                  <e p="th.js" t="Include" />
+                  <e p="tr.js" t="Include" />
+                  <e p="uk.js" t="Include" />
+                  <e p="vi.js" t="Include" />
+                  <e p="zh-cn.js" t="Include" />
+                  <e p="zh-TW.js" t="Include" />
+                </e>
+                <e p="select2.css" t="Include" />
+                <e p="select2.full.js" t="Include" />
+                <e p="select2.full.min.js" t="Include" />
+                <e p="select2.js" t="Include" />
+                <e p="select2.min.css" t="Include" />
+                <e p="select2.min.js" t="Include" />
+              </e>
+              <e p="slimScroll" t="Include">
+                <e p="jquery.slimscroll.js" t="Include" />
+                <e p="jquery.slimscroll.min.js" t="Include" />
+              </e>
+              <e p="sparkline" t="Include">
+                <e p="jquery.sparkline.js" t="Include" />
+                <e p="jquery.sparkline.min.js" t="Include" />
+              </e>
+              <e p="timepicker" t="Include">
+                <e p="bootstrap-timepicker.css" t="Include" />
+                <e p="bootstrap-timepicker.js" t="Include" />
+                <e p="bootstrap-timepicker.min.css" t="Include" />
+                <e p="bootstrap-timepicker.min.js" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="css" t="Include">
+            <e p="comun.css" t="Include" />
+          </e>
+          <e p="Database" t="Include">
+            <e p="201601.sql" t="Include" />
+          </e>
+          <e p="Javascript" t="Include">
+            <e p="comun.js" t="Include" />
+            <e p="spin.min.js" t="Include" />
+          </e>
+        </e>
+        <e p="favicon.ico" t="Include" />
+        <e p="fonts" t="Include">
+          <e p="fontawesome-webfont.eot" t="Include" />
+          <e p="fontawesome-webfont.svg" t="Include" />
+          <e p="fontawesome-webfont.ttf" t="Include" />
+          <e p="fontawesome-webfont.woff" t="Include" />
+          <e p="fontawesome-webfont.woff2" t="Include" />
+          <e p="FontAwesome.otf" t="Include" />
+          <e p="glyphicons-halflings-regular.eot" t="Include" />
+          <e p="glyphicons-halflings-regular.svg" t="Include" />
+          <e p="glyphicons-halflings-regular.ttf" t="Include" />
+          <e p="glyphicons-halflings-regular.woff" t="Include" />
+          <e p="glyphicons-halflings-regular.woff2" t="Include" />
+        </e>
+        <e p="Global.asax" t="Include" />
+        <e p="Global.asax.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="packages.config" t="Include" />
+        <e p="Proceso" t="Include">
+          <e p="ActualizaFechaEnControl.aspx" t="Include" />
+          <e p="ActualizaFechaEnControl.aspx.cs" t="Include" />
+          <e p="ActualizaFechaEnControl.aspx.designer.cs" t="Include" />
+          <e p="CargaAsistencia.aspx" t="Include" />
+          <e p="CargaAsistencia.aspx.cs" t="Include" />
+          <e p="CargaAsistencia.aspx.designer.cs" t="Include" />
+          <e p="CargaMasivaEmpleado.aspx" t="Include" />
+          <e p="CargaMasivaEmpleado.aspx.cs" t="Include" />
+          <e p="CargaMasivaEmpleado.aspx.designer.cs" t="Include" />
+          <e p="CargaMasivaOficina.aspx" t="Include" />
+          <e p="CargaMasivaOficina.aspx.cs" t="Include" />
+          <e p="CargaMasivaOficina.aspx.designer.cs" t="Include" />
+          <e p="CargaPlantillaEnControl.aspx" t="Include" />
+          <e p="CargaPlantillaEnControl.aspx.cs" t="Include" />
+          <e p="CargaPlantillaEnControl.aspx.designer.cs" t="Include" />
+          <e p="Plantilla.aspx" t="Include" />
+          <e p="Plantilla.aspx.cs" t="Include" />
+          <e p="Plantilla.aspx.designer.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="Reporte" t="Include">
+          <e p="ReporteAsistencia.aspx" t="Include" />
+          <e p="ReporteAsistencia.aspx.cs" t="Include" />
+          <e p="ReporteAsistencia.aspx.designer.cs" t="Include" />
+          <e p="ReporteEmpleadoNoRegistrado.aspx" t="Include" />
+          <e p="ReporteEmpleadoNoRegistrado.aspx.cs" t="Include" />
+          <e p="ReporteEmpleadoNoRegistrado.aspx.designer.cs" t="Include" />
+        </e>
+        <e p="roslyn" t="Include" />
+        <e p="Scripts" t="Include">
+          <e p="bootstrap.js" t="Include" />
+          <e p="bootstrap.min.js" t="Include" />
+          <e p="jquery-3.1.1.intellisense.js" t="Include" />
+          <e p="jquery-3.1.1.js" t="Include" />
+          <e p="jquery-3.1.1.min.js" t="Include" />
+          <e p="jquery-3.1.1.min.map" t="Include" />
+          <e p="jquery-3.1.1.slim.js" t="Include" />
+          <e p="jquery-3.1.1.slim.min.js" t="Include" />
+          <e p="jquery-3.1.1.slim.min.map" t="Include" />
+          <e p="jquery-ui-1.12.1.js" t="Include" />
+          <e p="jquery-ui-1.12.1.min.js" t="Include" />
+          <e p="modernizr-2.8.3.js" t="Include" />
+          <e p="respond.js" t="Include" />
+          <e p="respond.matchmedia.addListener.js" t="Include" />
+          <e p="respond.matchmedia.addListener.min.js" t="Include" />
+          <e p="respond.min.js" t="Include" />
+          <e p="toastr.js" t="Include" />
+          <e p="toastr.min.js" t="Include" />
+          <e p="WebForms" t="Include">
+            <e p="DetailsView.js" t="Include" />
+            <e p="Focus.js" t="Include" />
+            <e p="GridView.js" t="Include" />
+            <e p="Menu.js" t="Include" />
+            <e p="MenuStandards.js" t="Include" />
+            <e p="MSAjax" t="Include">
+              <e p="MicrosoftAjax.js" t="Include" />
+              <e p="MicrosoftAjaxApplicationServices.js" t="Include" />
+              <e p="MicrosoftAjaxComponentModel.js" t="Include" />
+              <e p="MicrosoftAjaxCore.js" t="Include" />
+              <e p="MicrosoftAjaxGlobalization.js" t="Include" />
+              <e p="MicrosoftAjaxHistory.js" t="Include" />
+              <e p="MicrosoftAjaxNetwork.js" t="Include" />
+              <e p="MicrosoftAjaxSerialization.js" t="Include" />
+              <e p="MicrosoftAjaxTimer.js" t="Include" />
+              <e p="MicrosoftAjaxWebForms.js" t="Include" />
+              <e p="MicrosoftAjaxWebServices.js" t="Include" />
+            </e>
+            <e p="SmartNav.js" t="Include" />
+            <e p="TreeView.js" t="Include" />
+            <e p="WebForms.js" t="Include" />
+            <e p="WebParts.js" t="Include" />
+            <e p="WebUIValidation.js" t="Include" />
+          </e>
+        </e>
+        <e p="Servidor" t="Include">
+          <e p="ApplicationPreload.cs" t="Include" />
+          <e p="AuthorizationFilter.cs" t="Include" />
+          <e p="HangfireBootstrapper.cs" t="Include" />
+        </e>
+        <e p="Sistema.aspx" t="Include" />
+        <e p="Sistema.aspx.cs" t="Include" />
+        <e p="Sistema.aspx.designer.cs" t="Include" />
+        <e p="Site.Master" t="Include" />
+        <e p="Site.Master.cs" t="Include" />
+        <e p="Site.Master.designer.cs" t="Include" />
+        <e p="Site.Mobile.Master" t="Include" />
+        <e p="Site.Mobile.Master.cs" t="Include" />
+        <e p="Site.Mobile.Master.designer.cs" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="Tareas" t="Include">
+          <e p="ProcesoColector.cs" t="Include" />
+          <e p="ProcesoWebService.cs" t="Include" />
+        </e>
+        <e p="ViewSwitcher.ascx" t="Include" />
+        <e p="ViewSwitcher.ascx.cs" t="Include" />
+        <e p="ViewSwitcher.ascx.designer.cs" t="Include" />
+        <e p="Web.config" t="Include" />
+        <e p="Web.Debug.config" t="Include" />
+        <e p="Web.Release.config" t="Include" />
+      </e>
+      <e p="Asistencia.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive">
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\csc.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\csc.exe.config" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\csc.rsp" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\csi.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\csi.exe.config" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\csi.rsp" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.Build.Tasks.CodeAnalysis.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.CodeAnalysis.CSharp.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.CodeAnalysis.CSharp.Scripting.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.CodeAnalysis.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.CodeAnalysis.Scripting.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.CodeAnalysis.VisualBasic.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.CSharp.Core.targets" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.DiaSymReader.Native.amd64.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.DiaSymReader.Native.x86.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.VisualBasic.Core.targets" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\Microsoft.Win32.Primitives.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.AppContext.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Collections.Immutable.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Console.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Diagnostics.FileVersionInfo.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Diagnostics.Process.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Diagnostics.StackTrace.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.IO.Compression.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.IO.FileSystem.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.IO.FileSystem.DriveInfo.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.IO.FileSystem.Primitives.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.IO.Pipes.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Reflection.Metadata.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Security.AccessControl.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Security.Claims.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Security.Cryptography.Algorithms.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Security.Cryptography.Encoding.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Security.Cryptography.Primitives.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Security.Cryptography.X509Certificates.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Security.Principal.Windows.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Text.Encoding.CodePages.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Threading.Thread.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.ValueTuple.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Xml.ReaderWriter.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Xml.XmlDocument.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Xml.XPath.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\System.Xml.XPath.XDocument.dll" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\vbc.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\vbc.exe.config" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\vbc.rsp" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\VBCSCompiler.exe" t="Include" />
+        <e p="Microsoft.Net.Compilers.2.0.1\tools\VBCSCompiler.exe.config" t="Include" />
+      </e>
+    </e>
+  </component>
+</project>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Asistencia" namespace="Asistencia.DbDominio" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="Incidencia" table="incidencia" schema="dbo" dynamic-insert="true" dynamic-update="true" select-before-update="true">
+    <id name="CveIncidencia" type="Int32">
+      <column name="cve_incidencia" not-null="true" precision="10" scale="0" sql-type="int" />
+      <generator class="identity" />
+    </id>
+
+
+
+    <property name="FechaHoraIncidencia" type="DateTime">
+      <column name="fecha_hora_incidencia" not-null="true" sql-type="datetime" />
+    </property>
+    <property name="FechaAlta" type="DateTime">
+      <column name="fecha_alta" not-null="true" sql-type="datetime" />
+    </property>
+    <property name="EnviadoWs" type="Int16">
+      <column name="enviado_ws" default="0" not-null="false" precision="5" scale="0" sql-type="smallint" />
+    </property>
+    <property name="InOutMode" type="Int32">
+      <column name="InOutMode" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+    <many-to-one name="Empleado" class="Empleado">
+      <column name="cve_empleado" not-null="true" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="Usuario" class="Usuario">
+      <column name="cve_usuario_alta"  precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <many-to-one name="ControlAcceso" class="ControlAcceso">
+      <column name="cve_control_acceso" not-null="true" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+  </class>
+</hibernate-mapping>

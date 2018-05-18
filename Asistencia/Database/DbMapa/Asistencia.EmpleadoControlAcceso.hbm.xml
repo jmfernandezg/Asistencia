@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Asistencia" namespace="Asistencia.DbDominio" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="EmpleadoControlAcceso" table="empleado_control_acceso_web" schema="dbo" dynamic-insert="true" dynamic-update="true" select-before-update="true">
+    <id name="CveEmpleadoControlAcceso" type="Int32">
+      <column name="id" not-null="true" precision="10" scale="0" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <property name="CveEmpleado" type="Int32">
+      <column name="cve_empleado" not-null="true" precision="10" scale="0" sql-type="int" unique-key="KEY1" />
+    </property>
+    <property name="CveControlAcceso" type="Int32">
+      <column name="cve_control_acceso" not-null="true" precision="10" scale="0" sql-type="int" unique-key="KEY1" />
+    </property>
+    <one-to-one name="Empleado" class="Empleado" constrained="true" />
+    <one-to-one name="ControlAcceso" class="ControlAcceso" constrained="true" />
+  </class>
+</hibernate-mapping>

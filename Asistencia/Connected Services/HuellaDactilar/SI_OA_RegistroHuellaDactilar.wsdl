@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:p1="http://company.com/WEBSERVICES/ECCMEX/RegistrosJornadasHuellaDactilar" name="SI_OA_RegistroHuellaDactilar" targetNamespace="http://company.com/WEBSERVICES/ECCMEX/RegistrosJornadasHuellaDactilar" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation />
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="OP_SI_OA_RegistroHuellaDactilar" />
+  <wsdl:types>
+    <xsd:schema xmlns="http://company.com/WEBSERVICES/ECCMEX/RegistrosJornadasHuellaDactilar" targetNamespace="http://company.com/WEBSERVICES/ECCMEX/RegistrosJornadasHuellaDactilar" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <xsd:element name="MT_RegistroHuella" type="p1:DT_RegistroHuella" />
+      <xsd:complexType name="DT_RegistroHuella">
+        <xsd:annotation>
+          <xsd:appinfo source="http://sap.com/xi/VersionID">8cbacb0fc29c11e4af220000064a690a</xsd:appinfo>
+        </xsd:annotation>
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="Data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element minOccurs="0" name="EVENT_ID" type="xsd:string" />
+                <xsd:element minOccurs="0" name="EVENT_TYPE_ID" type="xsd:string" />
+                <xsd:element minOccurs="0" name="MESSGE_TYPE" type="xsd:string" />
+                <xsd:element minOccurs="0" name="ORIG_TIME" type="xsd:string" />
+                <xsd:element minOccurs="0" name="DRIVE_ID" type="xsd:string" />
+                <xsd:element minOccurs="0" name="PLANT_ID" type="xsd:string" />
+                <xsd:element minOccurs="0" name="DAY_EVENT" type="xsd:string" />
+                <xsd:element minOccurs="0" name="VENDOR_ID" type="xsd:string" />
+                <xsd:element minOccurs="0" name="RECEIVER_ID" type="xsd:string" />
+              </xsd:sequence>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:sequence>
+      </xsd:complexType>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="MT_RegistroHuella">
+    <wsdl:documentation />
+    <wsdl:part name="MT_RegistroHuella" element="p1:MT_RegistroHuella" />
+  </wsdl:message>
+  <wsdl:portType name="SI_OA_RegistroHuellaDactilar">
+    <wsdl:documentation />
+    <wsdl:operation name="SI_OA_RegistroHuellaDactilar">
+      <wsdl:documentation />
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_SI_OA_RegistroHuellaDactilar" />
+      </wsp:Policy>
+      <wsdl:input message="p1:MT_RegistroHuella" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SI_OA_RegistroHuellaDactilarBinding" type="p1:SI_OA_RegistroHuellaDactilar">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <wsdl:operation name="SI_OA_RegistroHuellaDactilar">
+      <operation soapAction="http://sap.com/xi/WebService/soap1.1" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <wsdl:input>
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </wsdl:input>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SI_OA_RegistroHuellaDactilarService">
+    <wsdl:port name="HTTP_Port" binding="p1:SI_OA_RegistroHuellaDactilarBinding">
+      <address location="http://189.205.121.164/XISOAPAdapter/MessageServlet?senderParty=CONTROL_TRACK&amp;senderService=BC_CONTROL_TRACK&amp;receiverParty=&amp;receiverService=&amp;interface=SI_OA_RegistroHuellaDactilar&amp;interfaceNamespace=http%3A%2F%2Fcompany.com%2FWEBSERVICES%2FECCMEX%2FRegistrosJornadasHuellaDactilar" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

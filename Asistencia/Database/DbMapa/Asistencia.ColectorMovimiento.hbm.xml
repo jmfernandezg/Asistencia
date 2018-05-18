@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Asistencia" namespace="Asistencia.DbDominio" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ColectorMovimiento" table="colector_movimientos" schema="dbo"  dynamic-insert="true" dynamic-update="true" select-before-update="true">
+    <id name="CveColectorMovimientos" type="Int32">
+      <column name="cve_colector_movimientos" not-null="true" precision="10" scale="0" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <property name="CveServidor" type="Int32">
+      <column name="cve_servidor" not-null="true" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="CveControlAcceso" type="Int32">
+      <column name="cve_control_acceso" not-null="true" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="EnrollNumber" type="String">
+      <column name="EnrollNumber" not-null="false" length="20" sql-type="varchar" />
+    </property>
+    <property name="VerifyMode" type="Int32">
+      <column name="VerifyMode" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="InOutMode" type="Int32">
+      <column name="InOutMode" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="Year" type="Int32">
+      <column name="Year" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="Month" type="Int32">
+      <column name="Month" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="Day" type="Int32">
+      <column name="Day" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="Hour" type="Int32">
+      <column name="Hour" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="Minute" type="Int32">
+      <column name="Minute" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="Second" type="Int32">
+      <column name="Second" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+    <property name="WorkCode" type="Int32">
+      <column name="WorkCode" not-null="false" precision="10" scale="0" sql-type="int" />
+    </property>
+  </class>
+</hibernate-mapping>

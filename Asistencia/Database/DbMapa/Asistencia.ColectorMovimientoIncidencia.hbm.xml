@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<hibernate-mapping assembly="Asistencia" namespace="Asistencia.DbDominio" xmlns="urn:nhibernate-mapping-2.2">
+  <class name="ColectorMovimientoIncidencia" table="colector_movimientos_incidencia" schema="dbo"  dynamic-insert="true" dynamic-update="true" select-before-update="true">
+    <id name="Id" type="Int32">
+      <column name="Id" not-null="true" precision="10" scale="0" sql-type="int" />
+      <generator class="identity" />
+    </id>
+    <many-to-one name="ControlAcceso" class="ControlAcceso">
+      <column name="cve_control_acceso" not-null="true" precision="10" scale="0" sql-type="int" />
+    </many-to-one>
+    <property name="CveEmpleado" type="String">
+      <column name="cve_empleado" not-null="false" length="255" sql-type="varchar" />
+    </property>
+    <property name="Detalles" type="String">
+      <column name="detalles" not-null="false" length="255" sql-type="varchar" />
+    </property>
+    <property name="Fecha" type="DateTime">
+      <column name="fecha" not-null="true" precision="10" scale="0" sql-type="int" />
+    </property>
+  </class>
+</hibernate-mapping>
